@@ -1,0 +1,111 @@
+[
+  {
+    "patchId": "s20-mid",
+    "date": "2026-01-08",
+    "version": "20.1",
+    "title": "Середина сезона 20",
+    "changes": [
+      {"heroId": "sigma", "type": "nerf", "description": "Урон Гиперсфер снижен с 55 до 50"},
+      {"heroId": "dva", "type": "buff", "description": "Длительность матрицы защиты увеличена на 0.5 секунды"},
+      {"heroId": "tracer", "type": "nerf", "description": "Урон импульсной бомбы снижен с 350 до 325"},
+      {"heroId": "ana", "type": "buff", "description": "Радиус биотической гранаты увеличен на 10%"},
+      {"heroId": "vendetta", "type": "buff", "description": "Увеличен радиус ближней атаки"}
+    ]
+  },
+  {
+    "patchId": "s20-launch",
+    "date": "2025-12-09",
+    "version": "20.0",
+    "title": "Запуск сезона 20",
+    "changes": [
+      {"heroId": "vendetta", "type": "rework", "description": "Новый герой добавлен в игру"},
+      {"heroId": "sigma", "type": "buff", "description": "Урон Гиперсфер увеличен с 50 до 55"},
+      {"heroId": "reinhardt", "type": "buff", "description": "Прочность щита увеличена с 1200 до 1400"},
+      {"heroId": "kiriko", "type": "nerf", "description": "Время восстановления Судзу увеличено с 14 до 15с"}
+    ]
+  },
+  {
+    "patchId": "s19-mid",
+    "date": "2025-10-15",
+    "version": "19.1", 
+    "title": "Середина сезона 19",
+    "changes": [
+      {"heroId": "wuyang", "type": "buff", "description": "Увеличена скорость исцеления основной способности"},
+      {"heroId": "sojourn", "type": "nerf", "description": "Снижена скорость зарядки рейлгана на 10%"},
+      {"heroId": "genji", "type": "buff", "description": "Урон сюрикенов увеличен с 27 до 29"},
+      {"heroId": "mercy", "type": "nerf", "description": "Скорость исцеления снижена с 55 до 50 в секунду"}
+    ]
+  },
+  {
+    "patchId": "s19-launch",
+    "date": "2025-09-02",
+    "version": "19.0",
+    "title": "Запуск сезона 19",
+    "changes": [
+      {"heroId": "wuyang", "type": "rework", "description": "Новый саппорт добавлен в игру"},
+      {"heroId": "roadhog", "type": "rework", "description": "Переработана механика крюка и пассивка"},
+      {"heroId": "pharah", "type": "buff", "description": "Увеличена маневренность в воздухе"},
+      {"heroId": "lucio", "type": "buff", "description": "Радиус ауры увеличен с 12 до 14 метров"}
+    ]
+  },
+  {
+    "patchId": "s18-mid",
+    "date": "2025-07-15",
+    "version": "18.1",
+    "title": "Середина сезона 18",
+    "changes": [
+      {"heroId": "juno", "type": "buff", "description": "Увеличена скорость передвижения на 5%"},
+      {"heroId": "mauga", "type": "nerf", "description": "Снижена эффективность Берсерка"},
+      {"heroId": "sombra", "type": "rework", "description": "Переработана механика взлома"},
+      {"heroId": "illari", "type": "nerf", "description": "HP пилона снижено с 150 до 100"}
+    ]
+  },
+  {
+    "patchId": "s18-launch",
+    "date": "2025-06-03",
+    "version": "18.0",
+    "title": "Запуск сезона 18",
+    "changes": [
+      {"heroId": "freja", "type": "rework", "description": "Новый DD-герой добавлен в игру"},
+      {"heroId": "bastion", "type": "buff", "description": "Режим осады теперь с неограниченным запасом"},
+      {"heroId": "torbjorn", "type": "buff", "description": "Турель получила +50 HP"},
+      {"heroId": "zarya", "type": "nerf", "description": "Снижена максимальная энергия с 100 до 90"}
+    ]
+  },
+  {
+    "patchId": "s17-mid",
+    "date": "2025-04-08",
+    "version": "17.1",
+    "title": "Середина сезона 17",
+    "changes": [
+      {"heroId": "hazard", "type": "buff", "description": "Увеличен урон основной атаки"},
+      {"heroId": "doomfist", "type": "buff", "description": "Блок теперь даёт больше урона от отражённых атак"},
+      {"heroId": "echo", "type": "nerf", "description": "Урон липучек снижен на 15%"},
+      {"heroId": "baptiste", "type": "buff", "description": "Время бессмертия увеличено с 5 до 5.5 секунд"}
+    ]
+  },
+  {
+    "patchId": "s17-launch",
+    "date": "2025-02-04",
+    "version": "17.0",
+    "title": "Запуск сезона 17",
+    "changes": [
+      {"heroId": "venture", "type": "buff", "description": "Увеличен урон бура на 10%"},
+      {"heroId": "lifeweaver", "type": "rework", "description": "Переработано Древо Жизни"},
+      {"heroId": "mei", "type": "buff", "description": "Замедление Эндотермика усилено"},
+      {"heroId": "widowmaker", "type": "nerf", "description": "Урон от полного заряда снижен со 120 до 100"}
+    ]
+  },
+  {
+    "patchId": "s14-launch",
+    "date": "2024-12-10",
+    "version": "14.0",
+    "title": "Запуск сезона 14 — Hazard",
+    "changes": [
+      {"heroId": "hazard", "type": "rework", "description": "Новый танк добавлен в игру"},
+      {"heroId": "orisa", "type": "buff", "description": "Увеличен урон копья"},
+      {"heroId": "winston", "type": "buff", "description": "Прыжок теперь наносит больше урона при приземлении"},
+      {"heroId": "zenyatta", "type": "buff", "description": "Разлад теперь увеличивает получаемый урон на 30%"}
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+/* CSS переменные - дизайн-система Overpick */
+:root {
+  /* Основные цвета */
+  --color-bg: #0a0a0a;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-card: #141414;
+  --color-bg-hover: #1f1f1f;
+
+  /* Акцентные цвета Overwatch 2 */
+  --color-accent: #f06414;
+  --color-accent-hover: #ff7a2e;
+  --color-accent-blue: #00bfff;
+  --color-accent-blue-hover: #33ccff;
+
+  /* Текст */
+  --color-text: #ffffff;
+  --color-text-secondary: #b0b0b0;
+  --color-text-muted: #666666;
+
+  /* Границы */
+  --color-border: #2a2a2a;
+  --color-border-hover: #3a3a3a;
+
+  /* Тени */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-accent: 0 4px 20px rgba(240, 100, 20, 0.3);
+
+  /* Размеры и отступы */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  /* Радиусы */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Переходы */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Шрифты */
+  --font-primary:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Outfit", "Inter", -apple-system, sans-serif;
+
+  /* Размеры шрифтов */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3.5rem;
+
+  /* Ширина контейнера */
+  --container-max: 1200px;
+  --header-height: 70px;
+}

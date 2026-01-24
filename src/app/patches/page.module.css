@@ -1,0 +1,246 @@
+/* Стили страницы Patches */
+.patchesPage {
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  min-height: 100vh;
+}
+
+.patchesContainer {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.patchesHeader {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.patchesTitle {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-sm);
+  font-family: var(--font-heading);
+}
+
+.patchesTitle span {
+  color: var(--color-accent);
+}
+
+.patchesSubtitle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+}
+
+/* Фильтры */
+.patchesFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  margin-bottom: var(--spacing-xl);
+}
+
+.patchesFilterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  flex: 1;
+  min-width: 200px;
+}
+
+.patchesFilterLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.patchesFilterSelect,
+.patchesFilterInput {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+}
+
+.patchesFilterSelect:focus,
+.patchesFilterInput:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.patchesFilterBtns {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.patchesFilterBtn {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.patchesFilterBtn:hover {
+  border-color: var(--color-accent);
+}
+
+.patchesFilterBtn--active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
+}
+
+.patchesFilterBtn--buff { border-color: #27AE60; }
+.patchesFilterBtn--buff.patchesFilterBtn--active { background: #27AE60; }
+.patchesFilterBtn--nerf { border-color: #E74C3C; }
+.patchesFilterBtn--nerf.patchesFilterBtn--active { background: #E74C3C; }
+.patchesFilterBtn--rework { border-color: #9B59B6; }
+.patchesFilterBtn--rework.patchesFilterBtn--active { background: #9B59B6; }
+
+/* Результаты */
+.patchesResults {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.patchesResultsCount {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Список патчей */
+.patchesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Карточка патча */
+.patchCard {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--transition-fast);
+}
+
+.patchCard:hover {
+  border-color: var(--color-accent);
+}
+
+.patchCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-lg);
+  background: var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border);
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.patchCardTitle {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+
+.patchCardMeta {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.patchCardVersion {
+  background: var(--color-accent);
+  color: white;
+  padding: 4px 12px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.patchCardDate {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.patchCardChanges {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+/* Элемент изменения */
+.changeItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast);
+}
+
+.changeItem:hover {
+  background: var(--color-bg-hover);
+}
+
+.changeType {
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  min-width: 70px;
+  text-align: center;
+}
+
+.changeType--buff {
+  background: rgba(39, 174, 96, 0.2);
+  color: #27AE60;
+}
+
+.changeType--nerf {
+  background: rgba(231, 76, 60, 0.2);
+  color: #E74C3C;
+}
+
+.changeType--rework {
+  background: rgba(155, 89, 182, 0.2);
+  color: #9B59B6;
+}
+
+.changeHero {
+  font-weight: 600;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.changeDesc {
+  color: var(--color-text-secondary);
+  flex: 1;
+}
+
+/* Пустое состояние */
+.patchesEmpty {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-muted);
+}
+
+.patchesEmptyIcon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}

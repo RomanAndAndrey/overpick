@@ -1,0 +1,182 @@
+/* Стили HeroGrid компонента */
+.heroGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Панель управления */
+.heroGridControls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  align-items: center;
+  padding: var(--spacing-md);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+/* Поиск */
+.heroGridSearch {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+
+.heroGridSearchIcon {
+  position: absolute;
+  left: var(--spacing-md);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+.heroGridSearchInput {
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-left: 40px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  transition: all var(--transition-fast);
+}
+
+.heroGridSearchInput::placeholder {
+  color: var(--color-text-muted);
+}
+
+.heroGridSearchInput:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(240, 100, 20, 0.2);
+}
+
+/* Фильтры ролей */
+.heroGridFilters {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.heroGridFilterBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.heroGridFilterBtn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.heroGridFilterBtn--active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.heroGridFilterBtn--Tank.heroGridFilterBtn--active { background: #F0B429; border-color: #F0B429; }
+.heroGridFilterBtn--Damage.heroGridFilterBtn--active { background: #E74C3C; border-color: #E74C3C; }
+.heroGridFilterBtn--Support.heroGridFilterBtn--active { background: #27AE60; border-color: #27AE60; }
+
+/* Результаты */
+.heroGridResults {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.heroGridResultsCount {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Сетка героев */
+.heroGridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: var(--spacing-md);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Группировка по ролям */
+.heroGridGroup {
+  margin-bottom: var(--spacing-xl);
+}
+
+.heroGridGroupTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.heroGridGroupIcon {
+  font-size: 1.5rem;
+}
+
+.heroGridGroupCount {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heroGridItem {
+  animation: fadeIn 0.3s ease backwards;
+}
+
+.heroGridItem:nth-child(1) { animation-delay: 0.02s; }
+.heroGridItem:nth-child(2) { animation-delay: 0.04s; }
+.heroGridItem:nth-child(3) { animation-delay: 0.06s; }
+.heroGridItem:nth-child(4) { animation-delay: 0.08s; }
+.heroGridItem:nth-child(5) { animation-delay: 0.1s; }
+.heroGridItem:nth-child(6) { animation-delay: 0.12s; }
+.heroGridItem:nth-child(7) { animation-delay: 0.14s; }
+.heroGridItem:nth-child(8) { animation-delay: 0.16s; }
+
+/* Пустое состояние */
+.heroGridEmpty {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--color-text-muted);
+}
+
+.heroGridEmptyIcon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.heroGridEmptyText {
+  font-size: var(--font-size-lg);
+}

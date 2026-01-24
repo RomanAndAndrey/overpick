@@ -1,0 +1,179 @@
+/* Стили CounterList компонента */
+.counterList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.counterListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.counterListTitle {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+
+.counterListSort {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.counterListSortBtn {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.counterListSortBtn:hover {
+  border-color: var(--color-accent);
+}
+
+.counterListSortBtn--active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+/* Элемент контрпика */
+.counterItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.counterItem:hover {
+  border-color: var(--color-accent);
+  background: var(--color-bg-hover);
+  transform: translateX(4px);
+}
+
+.counterItemRank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  flex-shrink: 0;
+}
+
+.counterItemRank--1 { background: #888888; color: white; }
+.counterItemRank--2 { background: #88CC44; color: white; }
+.counterItemRank--3 { background: #FFCC44; color: #333; }
+.counterItemRank--4 { background: #FF8844; color: white; }
+.counterItemRank--5 { background: #FF4444; color: white; }
+
+.counterItemAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 2px solid var(--color-border);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.counterItemAvatarImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.counterItemAvatar--Tank { border-color: #F0B429; }
+.counterItemAvatar--Damage { border-color: #E74C3C; }
+.counterItemAvatar--Support { border-color: #27AE60; }
+
+.counterItemInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.counterItemName {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.counterItemRole {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.counterItemReason {
+  flex: 2;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+/* Шкала эффективности */
+.counterItemEffectiveness {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.counterItemStar {
+  width: 16px;
+  height: 16px;
+  background: var(--color-border);
+  border-radius: 2px;
+  transition: background var(--transition-fast);
+}
+
+.counterItemStar--filled {
+  background: var(--color-accent);
+}
+
+.counterItemStar--5.counterItemStar--filled { background: #FF4444; }
+.counterItemStar--4.counterItemStar--filled { background: #FF8844; }
+.counterItemStar--3.counterItemStar--filled { background: #FFCC44; }
+.counterItemStar--2.counterItemStar--filled { background: #88CC44; }
+.counterItemStar--1.counterItemStar--filled { background: #888888; }
+
+/* Пустое состояние */
+.counterListEmpty {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--color-text-muted);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-border);
+}
+
+/* Адаптив */
+@media (max-width: 640px) {
+  .counterItem {
+    flex-wrap: wrap;
+  }
+  
+  .counterItemReason {
+    width: 100%;
+    margin-top: var(--spacing-sm);
+  }
+}

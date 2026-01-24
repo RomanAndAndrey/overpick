@@ -1,0 +1,205 @@
+/* Стили страницы Meta */
+.metaPage {
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  min-height: 100vh;
+}
+
+.metaContainer {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.metaHeader {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.metaTitle {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-sm);
+  font-family: var(--font-heading);
+}
+
+.metaTitle span {
+  color: var(--color-accent);
+}
+
+.metaSubtitle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+}
+
+.metaInfo {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.metaInfoItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.metaInfoLabel {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.metaInfoValue {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Секции */
+.metaSection {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.metaSectionTitle {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+  font-family: var(--font-heading);
+}
+
+/* Патчи */
+.patchList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.patchCard {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  transition: border-color var(--transition-fast);
+}
+
+.patchCard:hover {
+  border-color: var(--color-accent);
+}
+
+.patchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.patchTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-heading);
+}
+
+.patchMeta {
+  display: flex;
+  gap: var(--spacing-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.patchVersion {
+  background: var(--color-accent);
+  color: var(--color-text);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.patchChanges {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.patchChange {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-bg-secondary);
+  border-radius: var(--radius-sm);
+}
+
+.patchChangeType {
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.patchChangeType--buff {
+  background: rgba(39, 174, 96, 0.2);
+  color: #27AE60;
+}
+
+.patchChangeType--nerf {
+  background: rgba(231, 76, 60, 0.2);
+  color: #E74C3C;
+}
+
+.patchChangeType--rework {
+  background: rgba(155, 89, 182, 0.2);
+  color: #9B59B6;
+}
+
+.patchChangeHero {
+  font-weight: 500;
+  color: var(--color-text);
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+.patchChangeDesc {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+/* Legend */
+.tierLegend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.tierLegendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.tierLegendBadge {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: var(--font-size-sm);
+}
+
+.tierLegendDesc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,543 @@
+[
+  {
+    "heroId": "dva",
+    "counters": [
+      {"heroId": "zarya", "effectiveness": 5, "reason": "Заря получает энергию от матрицы защиты, а барьеры блокируют урон Д.Вы"},
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом выключает защитную матрицу и ускорители — D.Va беспомощна"},
+      {"heroId": "mei", "effectiveness": 4, "reason": "Замедление мешает мобильности, стена разделяет от команды"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Огромный урон с близкого расстояния пробивает меха"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Луч проходит сквозь матрицу защиты"},
+      {"heroId": "bastion", "effectiveness": 3, "reason": "DPS быстро расплавляет меха"},
+      {"heroId": "echo", "effectiveness": 3, "reason": "Липкие бомбы игнорируют матрицу при приклеивании"}
+    ]
+  },
+  {
+    "heroId": "doomfist",
+    "counters": [
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом полностью отключает все способности — Дум беззащитен"},
+      {"heroId": "orisa", "effectiveness": 5, "reason": "Стойкость и Джавелин отменяют все атаки"},
+      {"heroId": "cassidy", "effectiveness": 4, "reason": "Магнитная граната останавливает рывки"},
+      {"heroId": "pharah", "effectiveness": 4, "reason": "Летает вне досягаемости ближнего боя"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Усыпляющая стрела прерывает комбо"},
+      {"heroId": "roadhog", "effectiveness": 3, "reason": "Крюк выдёргивает из дайва"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Замораживание останавливает мобильность"}
+    ]
+  },
+  {
+    "heroId": "hazard",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Летает вне зоны контроля Хазарда"},
+      {"heroId": "echo", "effectiveness": 5, "reason": "Мобильность и дистанция нивелируют угрозу"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Снайперский урон с безопасной дистанции"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Антихил и сон мешают агрессии"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Высокий урон в ближнем бою"},
+      {"heroId": "bastion", "effectiveness": 3, "reason": "DPS пробивает защиту"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает способности"}
+    ]
+  },
+  {
+    "heroId": "junkerqueen",
+    "counters": [
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил полностью блокирует вампиризм — Королева умирает"},
+      {"heroId": "kiriko", "effectiveness": 5, "reason": "Судзу снимает Rampage с союзников"},
+      {"heroId": "pharah", "effectiveness": 4, "reason": "Недосягаема для ближнего боя"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Убивает до сближения"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Выигрывает размены в ближнем бою"},
+      {"heroId": "bastion", "effectiveness": 4, "reason": "Расплавляет до подхода вплотную"},
+      {"heroId": "echo", "effectiveness": 3, "reason": "Воздушная мобильность недосягаема"}
+    ]
+  },
+  {
+    "heroId": "mauga",
+    "counters": [
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил блокирует Берсерк — Мауга умирает мгновенно"},
+      {"heroId": "kiriko", "effectiveness": 5, "reason": "Судзу снимает антихил, нивелируя контрплей"},
+      {"heroId": "zarya", "effectiveness": 4, "reason": "Быстро заряжается от спама Мауги"},
+      {"heroId": "bastion", "effectiveness": 4, "reason": "DPS превосходит регенерацию"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Огромный урон в упор"},
+      {"heroId": "zenyatta", "effectiveness": 4, "reason": "Разлад увеличивает получаемый урон"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает Берсерк"}
+    ]
+  },
+  {
+    "heroId": "orisa",
+    "counters": [
+      {"heroId": "bastion", "effectiveness": 5, "reason": "DPS превосходит стойкость Орисы"},
+      {"heroId": "reaper", "effectiveness": 5, "reason": "Высокий урон с близкого расстояния"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Гранаты пробивают щит и выбивают"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Антихил мешает ульте и регену"},
+      {"heroId": "mei", "effectiveness": 4, "reason": "Стена изолирует от команды"},
+      {"heroId": "sigma", "effectiveness": 3, "reason": "Рок разбивает стойкость"},
+      {"heroId": "symmetra", "effectiveness": 3, "reason": "Луч прожигает при сближении"}
+    ]
+  },
+  {
+    "heroId": "ramattra",
+    "counters": [
+      {"heroId": "bastion", "effectiveness": 5, "reason": "Огромный DPS пробивает любую форму"},
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил уничтожает Аннигиляцию"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Урон в упор убивает быстро"},
+      {"heroId": "pharah", "effectiveness": 4, "reason": "Вне досягаемости Немезиды"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Мобильность и урон сверху"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Судзу спасает от урона ульты"},
+      {"heroId": "zenyatta", "effectiveness": 3, "reason": "Разлад увеличивает получаемый урон"}
+    ]
+  },
+  {
+    "heroId": "reinhardt",
+    "counters": [
+      {"heroId": "reaper", "effectiveness": 5, "reason": "Уничтожает щит и танка с близи"},
+      {"heroId": "bastion", "effectiveness": 5, "reason": "Ломает щит за секунды"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Гранаты за щит, мина отбрасывает"},
+      {"heroId": "pharah", "effectiveness": 4, "reason": "Бьёт безнаказанно сверху"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Сон прерывает атаки и ульту"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Стена разделяет от команды"},
+      {"heroId": "symmetra", "effectiveness": 3, "reason": "Луч проходит через щит"}
+    ]
+  },
+  {
+    "heroId": "roadhog",
+    "counters": [
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил блокирует самолечение — Хряк умирает"},
+      {"heroId": "kiriko", "effectiveness": 5, "reason": "Судзу снимает антихил с союзников"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Огромный урон, хил при атаке"},
+      {"heroId": "bastion", "effectiveness": 4, "reason": "DPS выше регенерации"},
+      {"heroId": "zenyatta", "effectiveness": 4, "reason": "Разлад увеличивает урон значительно"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Замедление и стена изолируют"},
+      {"heroId": "dva", "effectiveness": 3, "reason": "Матрица съедает крюк и ульту"}
+    ]
+  },
+  {
+    "heroId": "sigma",
+    "counters": [
+      {"heroId": "reaper", "effectiveness": 5, "reason": "Пробивает барьер в упор"},
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом отключает все способности"},
+      {"heroId": "doomfist", "effectiveness": 4, "reason": "Пробивает через барьер кулаками"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Луч игнорирует барьер"},
+      {"heroId": "mei", "effectiveness": 4, "reason": "Стена мешает позиционированию"},
+      {"heroId": "tracer", "effectiveness": 3, "reason": "Слишком быстра для аккреции"},
+      {"heroId": "genji", "effectiveness": 3, "reason": "Отражает сферы и аккрецию"}
+    ]
+  },
+  {
+    "heroId": "winston",
+    "counters": [
+      {"heroId": "reaper", "effectiveness": 5, "reason": "Расплавляет обезьяну в упор"},
+      {"heroId": "bastion", "effectiveness": 5, "reason": "DPS превосходит щит и здоровье"},
+      {"heroId": "roadhog", "effectiveness": 4, "reason": "Крюк выдёргивает из прыжка"},
+      {"heroId": "cassidy", "effectiveness": 4, "reason": "Граната и урон останавливают"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Сон прерывает Rage и дайв"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Замораживает большого танка легко"},
+      {"heroId": "zarya", "effectiveness": 3, "reason": "Барьеры блокируют Теслу"}
+    ]
+  },
+  {
+    "heroId": "wreckingball",
+    "counters": [
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом полностью останавливает мобильность"},
+      {"heroId": "mei", "effectiveness": 5, "reason": "Замораживание ловит шар легко"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Сон прерывает качание"},
+      {"heroId": "roadhog", "effectiveness": 4, "reason": "Крюк выдёргивает из движения"},
+      {"heroId": "cassidy", "effectiveness": 4, "reason": "Граната ловит при пролёте"},
+      {"heroId": "bastion", "effectiveness": 3, "reason": "DPS расплавляет оболочку"},
+      {"heroId": "brigitte", "effectiveness": 3, "reason": "Щитовой удар и Whipshot сбивают"}
+    ]
+  },
+  {
+    "heroId": "zarya",
+    "counters": [
+      {"heroId": "reaper", "effectiveness": 5, "reason": "Урон высок, даже с барьерами"},
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Летает вне досягаемости"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушный урон сложно заблокировать"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Хедшот убивает через заряд"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Урон с дистанции не даёт заряжаться"},
+      {"heroId": "bastion", "effectiveness": 3, "reason": "DPS превосходит даже заряд"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом блокирует барьеры"}
+    ]
+  },
+  {
+    "heroId": "ashe",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Снайпер побеждает снайпера"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражает все выстрелы"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Слишком мобильна для прицела"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает Боба и выстрелы"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит снайпера"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом и хак с тыла"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Телепорт спасает от динамита"}
+    ]
+  },
+  {
+    "heroId": "bastion",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Хедшот убивает неподвижную турель"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражение возвращает весь DPS"},
+      {"heroId": "hanzo", "effectiveness": 4, "reason": "Драконы проходят сквозь защиту"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом выбивает из режима турели"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Бомба убивает даже в турели"},
+      {"heroId": "dva", "effectiveness": 3, "reason": "Матрица блокирует весь урон"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон выбивает из режима"}
+    ]
+  },
+  {
+    "heroId": "cassidy",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Хедшот на дистанции"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Отражает гранату и выстрелы"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Блинки уклоняются от гранаты"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает Deadeye и гранату"},
+      {"heroId": "winston", "effectiveness": 3, "reason": "Дайв заставляет откатываться"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Сложно попасть в воздухе"},
+      {"heroId": "hanzo", "effectiveness": 3, "reason": "Дальний бой и мобильность"}
+    ]
+  },
+  {
+    "heroId": "echo",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Снайпер сбивает в воздухе"},
+      {"heroId": "cassidy", "effectiveness": 5, "reason": "Хитскан следит за полётом"},
+      {"heroId": "soldier76", "effectiveness": 4, "reason": "Стабильный хитскан урон"},
+      {"heroId": "ashe", "effectiveness": 4, "reason": "Прицельный огонь с дистанции"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица и полёт догоняют"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон сбивает в воздухе"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает полёт"}
+    ]
+  },
+  {
+    "heroId": "freja",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Летает вне досягаемости атак"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Снайпер на дистанции"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Мобильность избегает урона"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Отражение и дэши"},
+      {"heroId": "winston", "effectiveness": 3, "reason": "Дайв давит"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает способности"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон прерывает агрессию"}
+    ]
+  },
+  {
+    "heroId": "genji",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Тесла автонаводится, не отражается"},
+      {"heroId": "mei", "effectiveness": 5, "reason": "Замораживание ловит дэши"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Турели и луч не отражаются"},
+      {"heroId": "moira", "effectiveness": 4, "reason": "Луч следует за уклонением"},
+      {"heroId": "zarya", "effectiveness": 4, "reason": "Луч игнорирует отражение"},
+      {"heroId": "brigitte", "effectiveness": 3, "reason": "Щит и удары CC ловят"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает дэши"}
+    ]
+  },
+  {
+    "heroId": "hanzo",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Хитскан снайпер быстрее"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражает стрелы и ульту"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Слишком быстра для прицела"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает драконов"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит лучника"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Хак с тыла"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Судзу спасает от ульты"}
+    ]
+  },
+  {
+    "heroId": "junkrat",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Гранаты не летают вверх"},
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Снайпер на дистанции"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность"},
+      {"heroId": "ashe", "effectiveness": 4, "reason": "Дистанция и Боб"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Отражение опасно для RIP-Tire"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом уничтожает ульту"},
+      {"heroId": "zarya", "effectiveness": 3, "reason": "Барьер заряжается от спама"}
+    ]
+  },
+  {
+    "heroId": "mei",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Замораживание бесполезно против полёта"},
+      {"heroId": "echo", "effectiveness": 5, "reason": "Летает вне зоны замедления"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Хедшот до подхода"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Призрак уходит от заморозки"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Урон до сближения"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом блокирует ледяную стену"},
+      {"heroId": "tracer", "effectiveness": 3, "reason": "Блинки избегают замораживания"}
+    ]
+  },
+  {
+    "heroId": "pharah",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Мгновенный хедшот в воздухе"},
+      {"heroId": "cassidy", "effectiveness": 5, "reason": "Хитскан следит за полётом"},
+      {"heroId": "soldier76", "effectiveness": 4, "reason": "Стабильный хитскан урон"},
+      {"heroId": "ashe", "effectiveness": 4, "reason": "Прицельный огонь с дистанции"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица и полёт догоняют"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон сбивает в воздухе"},
+      {"heroId": "echo", "effectiveness": 3, "reason": "Воздушный дуэль"}
+    ]
+  },
+  {
+    "heroId": "reaper",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Дробовики бесполезны в воздухе"},
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Убивает до сближения"},
+      {"heroId": "ashe", "effectiveness": 4, "reason": "Держит дистанцию и отбрасывает"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Сон прерывает ульту Death Blossom"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность"},
+      {"heroId": "junkrat", "effectiveness": 3, "reason": "Спам на дистанции"},
+      {"heroId": "brigitte", "effectiveness": 3, "reason": "Whipshot отталкивает от команды"}
+    ]
+  },
+  {
+    "heroId": "sojourn",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Снайпер против снайпера быстрее"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражение возвращает рейлган"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Блинки уклоняются от рейлгана"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает рейлган"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв мешает заряжать"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает слайд"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Судзу спасает от Оверклока"}
+    ]
+  },
+  {
+    "heroId": "soldier76",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Скоуп побеждает на дистанции"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражение возвращает урон"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Слишком мобильна для визора"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица блокирует тактвизор"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв заставляет убегать"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает рывки и хил"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон прерывает визор"}
+    ]
+  },
+  {
+    "heroId": "sombra",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Тесла находит невидимость"},
+      {"heroId": "moira", "effectiveness": 5, "reason": "Луч следует и снимает стелс"},
+      {"heroId": "torbjorn", "effectiveness": 4, "reason": "Турель обнаруживает невидимость"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Турели обнаруживают стелс"},
+      {"heroId": "zarya", "effectiveness": 4, "reason": "Луч прожигает без необходимости целиться"},
+      {"heroId": "brigitte", "effectiveness": 3, "reason": "Аура хила держит команду"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Замораживает при появлении"}
+    ]
+  },
+  {
+    "heroId": "symmetra",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Турели и луч бесполезны в воздухе"},
+      {"heroId": "winston", "effectiveness": 5, "reason": "Убивает турели клевером, дайв давит"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Спам уничтожает турели с дистанции"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность избегает луча"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Мобильность уклоняется от луча"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом блокирует телепорт"},
+      {"heroId": "mei", "effectiveness": 3, "reason": "Стена блокирует телепорт"}
+    ]
+  },
+  {
+    "heroId": "torbjorn",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Ракеты уничтожают турель сверху"},
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Снайпер снимает турель с дистанции"},
+      {"heroId": "hanzo", "effectiveness": 4, "reason": "Стрелы уничтожают турель"},
+      {"heroId": "junkrat", "effectiveness": 4, "reason": "Гранаты ломают турель легко"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушный урон по турели"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Хак выключает турель"},
+      {"heroId": "tracer", "effectiveness": 3, "reason": "Бомба уничтожает турель"}
+    ]
+  },
+  {
+    "heroId": "tracer",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Тесла автонаводится, не уклониться"},
+      {"heroId": "moira", "effectiveness": 5, "reason": "Луч следует за блинками"},
+      {"heroId": "mei", "effectiveness": 4, "reason": "Замораживание ловит при блинках"},
+      {"heroId": "torbjorn", "effectiveness": 4, "reason": "Турель отслеживает мобильность"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Турели и луч автонаводятся"},
+      {"heroId": "brigitte", "effectiveness": 3, "reason": "Щит и Whipshot сбивают"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает реколл и блинки"}
+    ]
+  },
+  {
+    "heroId": "vendetta",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Дайв нивелирует дистанцию"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Мобильность уклоняется от атак"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Отражение и дэши мешают"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица блокирует урон"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом отключает способности"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Воздушная мобильность"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Судзу спасает от ульты"}
+    ]
+  },
+  {
+    "heroId": "venture",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Подземные атаки бесполезны в воздухе"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Снайпер на дистанции"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица и полёт избегают"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Тесла бьёт при выходе из земли"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает подземку"},
+      {"heroId": "ana", "effectiveness": 3, "reason": "Сон при появлении из-под земли"}
+    ]
+  },
+  {
+    "heroId": "widowmaker",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Дайв убивает снайпера мгновенно"},
+      {"heroId": "dva", "effectiveness": 5, "reason": "Дайв + матрица блокируют всё"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Слишком быстра для скоупа"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Дэш + отражение закрывают"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом и хак с тыла"},
+      {"heroId": "kiriko", "effectiveness": 3, "reason": "Судзу спасает от хедшота"},
+      {"heroId": "lucio", "effectiveness": 3, "reason": "Speed boost усложняет прицел"}
+    ]
+  },
+  {
+    "heroId": "ana",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Слишком быстра для прицеливания"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражает гранату и дротики"},
+      {"heroId": "kiriko", "effectiveness": 5, "reason": "Судзу снимает антихил с союзников — главное контр-средство"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв убивает быстро"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает весь кит"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом мешает спасаться и использовать способности"},
+      {"heroId": "lucio", "effectiveness": 3, "reason": "Speed boost помогает уклоняться от сна"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Призрак игнорирует сон, убивает в упор"}
+    ]
+  },
+  {
+    "heroId": "baptiste",
+    "counters": [
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом отключает бессмертие — главная угроза"},
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Бомба сносит поле бессмертия"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит танка в него"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает урон и хил"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Антихил делает бессмертие бесполезным"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Урон в упор убивает быстрее рекена"},
+      {"heroId": "genji", "effectiveness": 3, "reason": "Блейд убивает через бессмертие"}
+    ]
+  },
+  {
+    "heroId": "brigitte",
+    "counters": [
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Ближний бой бесполезен в небе"},
+      {"heroId": "junkrat", "effectiveness": 5, "reason": "Урон с дистанции обходит щит"},
+      {"heroId": "bastion", "effectiveness": 4, "reason": "Плавит щит мгновенно"},
+      {"heroId": "reaper", "effectiveness": 4, "reason": "Дробовики пробивают щит"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность"},
+      {"heroId": "sombra", "effectiveness": 3, "reason": "Взлом отключает щит"},
+      {"heroId": "tracer", "effectiveness": 3, "reason": "Бомба игнорирует Rally"}
+    ]
+  },
+  {
+    "heroId": "illari",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Мобильность уклоняется от луча"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Отражение возвращает весь урон"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом отключает пилон лечения"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит поддержку"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Дайв + матрица съедает ульту"},
+      {"heroId": "widowmaker", "effectiveness": 3, "reason": "Снайпер на дистанции"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Воздушная угроза"}
+    ]
+  },
+  {
+    "heroId": "juno",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Мобильность против медленной цели"},
+      {"heroId": "winston", "effectiveness": 5, "reason": "Дайв не даёт позиционироваться"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Отражение и дэши угрожают"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом отключает способности"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Дайв + матрица давят"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Призрак заходит с тыла"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Воздушная угроза"}
+    ]
+  },
+  {
+    "heroId": "kiriko",
+    "counters": [
+      {"heroId": "winston", "effectiveness": 5, "reason": "Тесла игнорирует защиту Судзу"},
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом мешает телепортации — убегать некуда"},
+      {"heroId": "tracer", "effectiveness": 4, "reason": "Бомба сносит даже с Судзу"},
+      {"heroId": "ana", "effectiveness": 4, "reason": "Антихил мешает лечению команды"},
+      {"heroId": "zarya", "effectiveness": 4, "reason": "Луч игнорирует Судзу временно"},
+      {"heroId": "moira", "effectiveness": 3, "reason": "Луч следует за телепортом"},
+      {"heroId": "genji", "effectiveness": 3, "reason": "Блейд убивает до Судзу"}
+    ]
+  },
+  {
+    "heroId": "lifeweaver",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Бомба убивает несмотря на Tree of Life"},
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил уничтожает весь хил"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит слабую мобильность"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом блокирует спасение Life Grip"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Дэш + сюрикены убивают быстро"},
+      {"heroId": "dva", "effectiveness": 3, "reason": "Давит дайвом и матрицей"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Призрак заходит с тыла"}
+    ]
+  },
+  {
+    "heroId": "lucio",
+    "counters": [
+      {"heroId": "sombra", "effectiveness": 5, "reason": "Взлом отключает ауру и стенку — Лусио беспомощен"},
+      {"heroId": "mei", "effectiveness": 5, "reason": "Замедление нивелирует скорость"},
+      {"heroId": "moira", "effectiveness": 4, "reason": "Луч следует за уклонением"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Тесла автонаводится, не уклониться"},
+      {"heroId": "symmetra", "effectiveness": 4, "reason": "Турели ловят Лусио"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Ракеты попадают сверху"},
+      {"heroId": "roadhog", "effectiveness": 3, "reason": "Крюк выдёргивает из стены"}
+    ]
+  },
+  {
+    "heroId": "mercy",
+    "counters": [
+      {"heroId": "widowmaker", "effectiveness": 5, "reason": "Хедшот убивает в полёте"},
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Бомба убивает мгновенно"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Дэш догоняет полёт"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом отключает Guardian Angel"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит без защиты"},
+      {"heroId": "dva", "effectiveness": 3, "reason": "Погоня в воздухе"},
+      {"heroId": "cassidy", "effectiveness": 3, "reason": "Хитскан сбивает полёт"}
+    ]
+  },
+  {
+    "heroId": "moira",
+    "counters": [
+      {"heroId": "ana", "effectiveness": 5, "reason": "Антихил блокирует самохил и ульту"},
+      {"heroId": "pharah", "effectiveness": 5, "reason": "Луч не достаёт в воздухе"},
+      {"heroId": "echo", "effectiveness": 4, "reason": "Воздушная мобильность вне досягаемости"},
+      {"heroId": "widowmaker", "effectiveness": 4, "reason": "Хедшот до сближения"},
+      {"heroId": "zarya", "effectiveness": 4, "reason": "Барьер блокирует урон орба"},
+      {"heroId": "dva", "effectiveness": 3, "reason": "Матрица съедает орбы"},
+      {"heroId": "tracer", "effectiveness": 3, "reason": "Мобильность избегает луча частично"}
+    ]
+  },
+  {
+    "heroId": "wuyang",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Мобильность давит нового саппорта"},
+      {"heroId": "winston", "effectiveness": 5, "reason": "Дайв не даёт позиционироваться"},
+      {"heroId": "genji", "effectiveness": 4, "reason": "Дэши и отражение угрожают"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом отключает способности"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Дайв + матрица давят"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Призрак заходит с тыла"},
+      {"heroId": "pharah", "effectiveness": 3, "reason": "Воздушная угроза"}
+    ]
+  },
+  {
+    "heroId": "zenyatta",
+    "counters": [
+      {"heroId": "tracer", "effectiveness": 5, "reason": "Бомба убивает мгновенно"},
+      {"heroId": "genji", "effectiveness": 5, "reason": "Дэш + сюрикены убивают быстро"},
+      {"heroId": "winston", "effectiveness": 4, "reason": "Дайв давит без мобильности"},
+      {"heroId": "sombra", "effectiveness": 4, "reason": "Взлом снимает щиты и блокирует ульту"},
+      {"heroId": "dva", "effectiveness": 4, "reason": "Матрица съедает орбы и ульту"},
+      {"heroId": "widowmaker", "effectiveness": 3, "reason": "Хедшот убивает большую голову"},
+      {"heroId": "reaper", "effectiveness": 3, "reason": "Призрак заходит в упор"}
+    ]
+  }
+]
