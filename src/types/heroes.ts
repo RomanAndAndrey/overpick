@@ -10,11 +10,29 @@ export interface Hero {
   portrait: string;
 }
 
+export type CounterTier = 'S' | 'A' | 'B' | 'C';
+
 export interface CounterInfo {
   heroId: string;
   effectiveness: 1 | 2 | 3 | 4 | 5;
+  tier: CounterTier;
+  counterRole: HeroRole;
   reason: string;
 }
+
+export const TIER_LABELS: Record<CounterTier, string> = {
+  S: 'Жёсткий контр',
+  A: 'Сильный контр',
+  B: 'Умеренный контр',
+  C: 'Ситуативный контр',
+};
+
+export const TIER_COLORS: Record<CounterTier, string> = {
+  S: '#ff4444',
+  A: '#ff8844',
+  B: '#ffcc44',
+  C: '#888888',
+};
 
 export interface HeroCounters {
   heroId: string;

@@ -16,30 +16,47 @@ type SortOrder = 'effectiveness' | 'name';
 
 export default function CounterList({ counters, heroes, title = 'Контрпики' }: CounterListProps) {
   const [sortOrder, setSortOrder] = useState<SortOrder>('effectiveness');
+  const [activeRole, setActiveRole] = useState<HeroRole | 'All'>('All');
 
   // Получить информацию о герое
   const getHero = (heroId: string): Hero | undefined => {
     return heroes.find(h => h.id === heroId);
   };
 
-  // Сортировка контрпиков
-  const sortedCounters = useMemo(() => {
-    const sorted = [...counters];
+  // Фильтрация и сортировка контрпиков
+  const filteredCounters = useMemo(() => {
+    let result = [...counters];
+
+    // Фильтр по роли
+    if (activeRole !== 'All') {
+      result = result.filter(c => c.counterRole === activeRole);
+    }
     
+    // Сортировка
     if (sortOrder === 'effectiveness') {
-      sorted.sort((a, b) => b.effectiveness - a.effectiveness);
+      // Сортировка по эффективности (S > A > B > C) и затем по effectiveness (числу)
+      const tierOrder: Record<string, number> = { S: 4, A: 3, B: 2, C: 1 };
+      
+      result.sort((a, b) => {
+        // Если есть tier, используем его приоритет
+        if (a.tier && b.tier && a.tier !== b.tier) {
+          return tierOrder[b.tier] - tierOrder[a.tier];
+        }
+        // Иначе по number value
+        return b.effectiveness - a.effectiveness;
+      });
     } else {
-      sorted.sort((a, b) => {
+      result.sort((a, b) => {
         const heroA = getHero(a.heroId);
         const heroB = getHero(b.heroId);
         return (heroA?.nameRu || '').localeCompare(heroB?.nameRu || '', 'ru');
       });
     }
     
-    return sorted;
-  }, [counters, sortOrder]);
+    return result;
+  }, [counters, sortOrder, activeRole]);
 
-  // Рендер шкалы эффективности
+  // Рендер шкалы эффективности (звезды)
   const renderEffectiveness = (effectiveness: number) => {
     return (
       <div className="counterItemEffectiveness" aria-label={`Эффективность: ${effectiveness} из 5`}>
@@ -86,47 +103,69 @@ export default function CounterList({ counters, heroes, title = 'Контрпи�
         </div>
       )}
 
-      {/* Список контрпиков */}
-      {sortedCounters.map((counter, idx) => {
-        const hero = getHero(counter.heroId);
-        if (!hero) return null;
-        
-        return (
-          <Link 
-            key={counter.heroId} 
-            href={`/hero/${hero.id}`}
-            className="counterItem"
-            aria-label={`${hero.nameRu} - эффективность ${counter.effectiveness} из 5`}
+      {/* Фильтр по ролям */}
+      <div className="counterListTabs" role="tablist">
+        {(['All', 'Tank', 'Damage', 'Support'] as const).map((role) => (
+          <button
+            key={role}
+            className={`counterListTab ${activeRole === role ? 'counterListTab--active' : ''}`}
+            onClick={() => setActiveRole(role)}
+            role="tab"
+            aria-selected={activeRole === role}
+            aria-controls={`panel-${role}`}
           >
-            <div className={`counterItemRank counterItemRank--${counter.effectiveness}`}>
-              #{idx + 1}
-            </div>
-            
-            <div className={`counterItemAvatar counterItemAvatar--${hero.role}`}>
-              <Image
-                src={hero.portrait}
-                alt={hero.nameRu}
-                width={48}
-                height={48}
-                className="counterItemAvatarImg"
-                loading="lazy"
-                unoptimized
-              />
-            </div>
-            
-            <div className="counterItemInfo">
-              <div className="counterItemName">{hero.nameRu}</div>
-              <div className="counterItemRole">{ROLE_LABELS[hero.role]}</div>
-            </div>
-            
-            <div className="counterItemReason">
-              {counter.reason}
-            </div>
-            
-            {renderEffectiveness(counter.effectiveness)}
-          </Link>
-        );
-      })}
+            {role === 'All' ? 'Все' : ROLE_LABELS[role]}
+          </button>
+        ))}
+      </div>
+
+      {/* Список контрпиков */}
+      {filteredCounters.length > 0 ? (
+        filteredCounters.map((counter) => {
+          const hero = getHero(counter.heroId);
+          if (!hero) return null;
+          
+          return (
+            <Link 
+              key={counter.heroId} 
+              href={`/hero/${hero.id}`}
+              className="counterItem"
+              aria-label={`${hero.nameRu} - Тир ${counter.tier || '?'} (${counter.effectiveness} из 5)`}
+            >
+              <div className={`counterItemTier counterItemTier--${counter.tier || 'C'}`}>
+                {counter.tier || '?'}
+              </div>
+              
+              <div className={`counterItemAvatar counterItemAvatar--${hero.role}`}>
+                <Image
+                  src={hero.portrait}
+                  alt={hero.nameRu}
+                  width={48}
+                  height={48}
+                  className="counterItemAvatarImg"
+                  loading="lazy"
+                  unoptimized
+                />
+              </div>
+              
+              <div className="counterItemInfo">
+                <div className="counterItemName">{hero.nameRu}</div>
+                <div className="counterItemRole">{ROLE_LABELS[hero.role]}</div>
+              </div>
+              
+              <div className="counterItemReason">
+                {counter.reason}
+              </div>
+              
+              {renderEffectiveness(counter.effectiveness)}
+            </Link>
+          );
+        })
+      ) : (
+        <div className="counterListEmpty">
+          Нет героев в этой категории
+        </div>
+      )}
     </div>
   );
 }
