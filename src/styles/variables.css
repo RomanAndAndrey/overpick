@@ -1,31 +1,39 @@
 /* CSS переменные - дизайн-система Overpick */
+/* Обновлено под Overwatch Season 1 (ребрендинг февраль 2026) */
 :root {
-  /* Основные цвета */
-  --color-bg: #0a0a0a;
-  --color-bg-secondary: #1a1a1a;
-  --color-bg-card: #141414;
-  --color-bg-hover: #1f1f1f;
+  /* Основные цвета — более глубокий тёмный стиль */
+  --color-bg: #050508;
+  --color-bg-secondary: #0e1015;
+  --color-bg-card: #111318;
+  --color-bg-hover: #1a1d24;
+  --color-bg-elevated: #181b22;
 
-  /* Акцентные цвета Overwatch 2 */
+  /* Акцентные цвета — обновлённая палитра OW Season 1 */
   --color-accent: #f06414;
   --color-accent-hover: #ff7a2e;
+  --color-accent-glow: rgba(240, 100, 20, 0.4);
   --color-accent-blue: #00bfff;
   --color-accent-blue-hover: #33ccff;
+  --color-accent-blue-glow: rgba(0, 191, 255, 0.3);
+  --color-accent-purple: #9b59b6;
+  --color-accent-green: #27ae60;
 
   /* Текст */
-  --color-text: #ffffff;
-  --color-text-secondary: #b0b0b0;
-  --color-text-muted: #666666;
+  --color-text: #f0f0f5;
+  --color-text-secondary: #9a9ab0;
+  --color-text-muted: #555566;
 
-  /* Границы */
-  --color-border: #2a2a2a;
-  --color-border-hover: #3a3a3a;
+  /* Границы — более тонкие, стеклянные */
+  --color-border: #1e2028;
+  --color-border-hover: #2a2d38;
+  --color-border-accent: rgba(240, 100, 20, 0.3);
 
-  /* Тени */
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
-  --shadow-accent: 0 4px 20px rgba(240, 100, 20, 0.3);
+  /* Тени — глубокие */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-accent: 0 4px 24px rgba(240, 100, 20, 0.25);
+  --shadow-blue: 0 4px 24px rgba(0, 191, 255, 0.2);
 
   /* Размеры и отступы */
   --spacing-xs: 0.25rem;
@@ -34,17 +42,20 @@
   --spacing-lg: 1.5rem;
   --spacing-xl: 2rem;
   --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
 
-  /* Радиусы */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
+  /* Радиусы — более скруглённые */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
 
   /* Переходы */
   --transition-fast: 150ms ease;
   --transition-normal: 250ms ease;
-  --transition-slow: 400ms ease;
+  --transition-slow: 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
 
   /* Шрифты */
   --font-primary:
@@ -63,6 +74,11 @@
   --font-size-5xl: 3.5rem;
 
   /* Ширина контейнера */
-  --container-max: 1200px;
-  --header-height: 70px;
+  --container-max: 1280px;
+  --header-height: 72px;
+
+  /* Glassmorphism base */
+  --glass-bg: rgba(17, 19, 24, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.06);
+  --glass-blur: blur(20px);
 }

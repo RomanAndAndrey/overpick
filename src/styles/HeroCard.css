@@ -1,4 +1,4 @@
-/* Стили HeroCard компонента */
+/* HeroCard — Overwatch Season 1 */
 .heroCard {
   display: flex;
   flex-direction: column;
@@ -13,18 +13,32 @@
   text-decoration: none;
   color: inherit;
   min-width: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroCard::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.02) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
 }
 
 .heroCard:hover {
-  background: var(--color-bg-hover);
-  border-color: var(--color-accent);
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
+  color: inherit;
 }
 
-.heroCard--Tank:hover { border-color: #F0B429; }
-.heroCard--Damage:hover { border-color: #E74C3C; }
-.heroCard--Support:hover { border-color: #27AE60; }
+.heroCard:hover::before {
+  opacity: 1;
+}
+
+.heroCard--Tank:hover { border-color: #F0B429; box-shadow: 0 8px 24px rgba(240, 180, 41, 0.15); }
+.heroCard--Damage:hover { border-color: #E74C3C; box-shadow: 0 8px 24px rgba(231, 76, 60, 0.15); }
+.heroCard--Support:hover { border-color: #27AE60; box-shadow: 0 8px 24px rgba(39, 174, 96, 0.15); }
 
 .heroCardAvatar {
   position: relative;
@@ -38,16 +52,16 @@
   font-size: 2rem;
   border: 3px solid var(--color-border);
   overflow: hidden;
-  transition: border-color var(--transition-fast);
+  transition: all var(--transition-normal);
 }
 
 .heroCard:hover .heroCardAvatar {
-  border-color: var(--color-accent);
+  transform: scale(1.05);
 }
 
-.heroCardAvatar--Tank { border-color: #F0B429; }
-.heroCardAvatar--Damage { border-color: #E74C3C; }
-.heroCardAvatar--Support { border-color: #27AE60; }
+.heroCardAvatar--Tank { border-color: rgba(240, 180, 41, 0.6); }
+.heroCardAvatar--Damage { border-color: rgba(231, 76, 60, 0.6); }
+.heroCardAvatar--Support { border-color: rgba(39, 174, 96, 0.6); }
 
 .heroCardAvatarImg {
   width: 100%;
@@ -86,14 +100,15 @@
 }
 
 .heroCardTier {
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
   font-size: 10px;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
-.heroCardTier--S { background: #FF4444; color: white; }
-.heroCardTier--A { background: #FF8844; color: white; }
-.heroCardTier--B { background: #FFCC44; color: #333; }
-.heroCardTier--C { background: #88CC44; color: white; }
+.heroCardTier--S { background: linear-gradient(135deg, #FF4444, #ff6666); color: white; }
+.heroCardTier--A { background: linear-gradient(135deg, #FF8844, #ffaa66); color: white; }
+.heroCardTier--B { background: linear-gradient(135deg, #FFCC44, #ffdd66); color: #333; }
+.heroCardTier--C { background: linear-gradient(135deg, #88CC44, #aadd66); color: #222; }
 .heroCardTier--D { background: #888888; color: white; }

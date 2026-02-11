@@ -9,14 +9,16 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'Мета и Тир-лист',
-  description: 'Актуальный тир-лист героев Overwatch 2 Season 20. S-tier герои, pick rate и win rate статистика.',
+  description: 'Актуальный тир-лист героев Overwatch Season 1. S-tier герои, подроли, pick rate и win rate статистика.',
 };
 
 // Типизация данных
 const meta = metaData as {
   season: number;
+  seasonName: string;
   patch: string;
   lastUpdated: string;
+  metaDescription: string;
   tiers: Record<Tier, TierInfo>;
   heroes: HeroMeta[];
 };
@@ -39,12 +41,12 @@ export default function MetaPage() {
             Текущая <span>Мета</span>
           </h1>
           <p className={styles.metaSubtitle}>
-            Тир-лист героев Overwatch 2 на основе актуальных данных
+            Тир-лист героев Overwatch на основе актуальных данных
           </p>
           <div className={styles.metaInfo}>
             <div className={styles.metaInfoItem}>
               <span className={styles.metaInfoLabel}>Сезон:</span>
-              <span className={styles.metaInfoValue}>{meta.season}</span>
+              <span className={styles.metaInfoValue}>{meta.seasonName}</span>
             </div>
             <div className={styles.metaInfoItem}>
               <span className={styles.metaInfoLabel}>Патч:</span>
@@ -54,6 +56,10 @@ export default function MetaPage() {
               <span className={styles.metaInfoLabel}>Обновлено:</span>
               <span className={styles.metaInfoValue}>{meta.lastUpdated}</span>
             </div>
+          </div>
+          {/* Описание меты */}
+          <div className={styles.metaDesc}>
+            <p>{meta.metaDescription}</p>
           </div>
         </header>
 

@@ -8,7 +8,7 @@ import heroesData from '@/data/heroes.json';
 import countersData from '@/data/counters.json';
 import metaData from '@/data/meta.json';
 import synergiesData from '@/data/synergies.json';
-import { Hero, HeroRole, ROLE_LABELS, HeroCounters, HeroSynergies } from '@/types/heroes';
+import { Hero, HeroRole, ROLE_LABELS, SUBROLE_LABELS, SUBROLE_COLORS, HeroCounters, HeroSynergies } from '@/types/heroes';
 import { HeroMeta, Tier, TierInfo } from '@/types/meta';
 import styles from './page.module.css';
 
@@ -18,11 +18,15 @@ const counters = countersData as HeroCounters[];
 const synergies = synergiesData as HeroSynergies;
 const meta = metaData as {
   season: number;
+  seasonName: string;
   patch: string;
   lastUpdated: string;
   tiers: Record<Tier, TierInfo>;
   heroes: HeroMeta[];
 };
+
+// Новые герои Season 1
+const NEW_HEROES = ['domina', 'anran', 'emre', 'jetpackcat', 'mizuki'];
 
 // Иконки ролей
 const ROLE_ICONS: Record<HeroRole, string> = {
@@ -46,7 +50,7 @@ export async function generateMetadata({
   
   return {
     title: `${hero.nameRu} - Контрпики`,
-    description: `Узнай, кто контрит ${hero.nameRu} в Overwatch 2. Лучшие контрпики с объяснениями.`,
+    description: `Узнай, кто контрит ${hero.nameRu} в Overwatch. Лучшие контрпики с объяснениями. Season 1.`,
   };
 }
 
@@ -80,6 +84,8 @@ export default async function HeroDetailPage({
   // Найти синергии
   const heroSynergies = synergies[id] || [];
   
+  const isNew = NEW_HEROES.includes(hero.id);
+  
   return (
     <div className={styles.heroDetailPage}>
       <div className={styles.heroDetailContainer}>
@@ -106,12 +112,27 @@ export default async function HeroDetailPage({
             <h1 className={styles.heroDetailName}>
               {hero.nameRu}
               <span className={styles.heroDetailNameEn}>{hero.name}</span>
+              {isNew && <span className="new-badge">NEW</span>}
             </h1>
             
             <div className={styles.heroDetailMeta}>
               <span className={`${styles.heroDetailBadge} ${styles['heroDetailBadge--role']} ${styles[`heroDetailBadge--${hero.role}`]}`}>
                 {ROLE_ICONS[hero.role]} {ROLE_LABELS[hero.role]}
               </span>
+              
+              {/* Подроль */}
+              {hero.subrole && (
+                <span 
+                  className={styles.heroDetailBadgeSubrole}
+                  style={{ 
+                    borderColor: SUBROLE_COLORS[hero.subrole] || '#888',
+                    color: SUBROLE_COLORS[hero.subrole] || '#888',
+                    background: `${SUBROLE_COLORS[hero.subrole]}15` || 'transparent'
+                  }}
+                >
+                  {SUBROLE_LABELS[hero.subrole] || hero.subrole}
+                </span>
+              )}
               
               {heroMeta && (
                 <span className={`${styles.heroDetailBadge} ${styles['heroDetailBadge--tier']} ${styles[`heroDetailBadge--tier-${heroMeta.tier}`]}`}>

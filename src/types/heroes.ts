@@ -1,12 +1,19 @@
-// Типы данных для Overwatch 2 героев и контрпиков
+// Типы данных для Overwatch героев и контрпиков
 
 export type HeroRole = 'Tank' | 'Damage' | 'Support';
+
+// Новые подроли из обновления Season 1 (10 февраля 2026)
+export type HeroSubrole = 
+  | 'Initiator' | 'Bruiser' | 'Stalwart'  // Танки
+  | 'Specialist' | 'Recon' | 'Flanker' | 'Sharpshooter'  // DD
+  | undefined;  // Саппорты (пока без подролей)
 
 export interface Hero {
   id: string;
   name: string;
   nameRu: string;
   role: HeroRole;
+  subrole?: string;
   portrait: string;
 }
 
@@ -68,6 +75,27 @@ export const ROLE_COLORS: Record<HeroRole, string> = {
   Tank: '#F0B429',
   Damage: '#E74C3C',
   Support: '#27AE60',
+};
+
+// Подроли и их описания
+export const SUBROLE_LABELS: Record<string, string> = {
+  Initiator: 'Инициатор',
+  Bruiser: 'Бруйзер',
+  Stalwart: 'Стойкий',
+  Specialist: 'Специалист',
+  Recon: 'Разведчик',
+  Flanker: 'Фланкер',
+  Sharpshooter: 'Стрелок',
+};
+
+export const SUBROLE_COLORS: Record<string, string> = {
+  Initiator: '#00BFFF',
+  Bruiser: '#FF6B35',
+  Stalwart: '#9B59B6',
+  Specialist: '#27AE60',
+  Recon: '#3498DB',
+  Flanker: '#E74C3C',
+  Sharpshooter: '#F39C12',
 };
 
 // Типы для синергий

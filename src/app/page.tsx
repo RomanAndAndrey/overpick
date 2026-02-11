@@ -11,11 +11,15 @@ import styles from './page.module.css';
 const heroes = heroesData as Hero[];
 const meta = metaData as {
   season: number;
+  seasonName: string;
   patch: string;
   lastUpdated: string;
   tiers: Record<Tier, TierInfo>;
   heroes: HeroMeta[];
 };
+
+// Новые герои Season 1
+const NEW_HEROES = ['domina', 'anran', 'emre', 'jetpackcat', 'mizuki'];
 
 export default function Home() {
   // Топ-герои по ролям (S-tier)
@@ -26,12 +30,16 @@ export default function Home() {
       {/* Hero секция */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
+          <div className={styles.heroBadge}>
+            <span className={styles.heroBadgeIcon}>◆</span>
+            {meta.seasonName}
+          </div>
           <h1 className={styles.heroTitle}>
             <span className={styles.heroTitleAccent}>Overpick</span>
-            <br />Контрпики Overwatch 2
+            <br />Контрпики Overwatch
           </h1>
           <p className={styles.heroSubtitle}>
-            Узнай, кем контрить любого героя. Актуальная мета Season {meta.season}.
+            Узнай, кем контрить любого героя. Актуальная мета с подролями и {heroes.length} героями.
           </p>
           <div className={styles.heroCta}>
             <Link href="/heroes" className={styles.heroCtaPrimary}>
@@ -69,14 +77,16 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.topMetaGrid}>
-          {topHeroes.slice(0, 9).map(heroMeta => {
+          {topHeroes.slice(0, 9).map((heroMeta, index) => {
             const hero = heroes.find(h => h.id === heroMeta.heroId);
             if (!hero) return null;
+            const isNew = NEW_HEROES.includes(hero.id);
             return (
               <Link 
                 key={hero.id} 
                 href={`/hero/${hero.id}`}
                 className={styles.topMetaCard}
+                style={{ animationDelay: `${index * 60}ms` }}
               >
                 <div className={styles.topMetaAvatar}>
                   <Image
@@ -90,11 +100,19 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles.topMetaInfo}>
-                  <span className={styles.topMetaName}>{hero.nameRu}</span>
+                  <span className={styles.topMetaName}>
+                    {hero.nameRu}
+                    {isNew && <span className="new-badge">NEW</span>}
+                  </span>
                   <span className={styles.topMetaStats}>
                     {heroMeta.winRate}% WR
                   </span>
                 </div>
+                {hero.subrole && (
+                  <span className={styles.topMetaSubrole}>
+                    {hero.subrole}
+                  </span>
+                )}
               </Link>
             );
           })}
@@ -108,7 +126,7 @@ export default function Home() {
           <span className={styles.statLabel}>Героев</span>
         </div>
         <div className={styles.statItem}>
-          <span className={styles.statValue}>Season {meta.season}</span>
+          <span className={styles.statValue}>{meta.seasonName}</span>
           <span className={styles.statLabel}>Актуальная мета</span>
         </div>
         <div className={styles.statItem}>

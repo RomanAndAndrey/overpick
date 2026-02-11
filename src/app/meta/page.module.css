@@ -1,4 +1,4 @@
-/* Стили страницы Meta */
+/* Стили страницы Meta — Overwatch Season 1 */
 .metaPage {
   padding: var(--spacing-2xl) var(--spacing-lg);
   min-height: 100vh;
@@ -12,16 +12,27 @@
 .metaHeader {
   text-align: center;
   margin-bottom: var(--spacing-2xl);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .metaTitle {
   font-size: var(--font-size-4xl);
   margin-bottom: var(--spacing-sm);
   font-family: var(--font-heading);
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .metaTitle span {
-  color: var(--color-accent);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .metaSubtitle {
@@ -32,7 +43,7 @@
 .metaInfo {
   display: flex;
   justify-content: center;
-  gap: var(--spacing-xl);
+  gap: var(--spacing-md);
   margin-top: var(--spacing-lg);
   flex-wrap: wrap;
 }
@@ -41,20 +52,38 @@
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: 8px 16px;
   background: var(--color-bg-card);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-full);
   border: 1px solid var(--color-border);
+  font-size: var(--font-size-sm);
 }
 
 .metaInfoLabel {
   color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
 }
 
 .metaInfoValue {
   color: var(--color-accent);
   font-weight: 600;
+}
+
+/* Описание меты */
+.metaDesc {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: rgba(0, 191, 255, 0.04);
+  border: 1px solid rgba(0, 191, 255, 0.15);
+  border-radius: var(--radius-lg);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metaDesc p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
 }
 
 /* Секции */
@@ -66,8 +95,10 @@
   font-size: var(--font-size-2xl);
   margin-bottom: var(--spacing-lg);
   padding-bottom: var(--spacing-sm);
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 /* Патчи */
@@ -82,11 +113,18 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--spacing-lg);
-  transition: border-color var(--transition-fast);
+  transition: all var(--transition-normal);
+}
+
+.patchCard:first-child {
+  border-color: rgba(240, 100, 20, 0.25);
+  background: linear-gradient(135deg, rgba(240, 100, 20, 0.03) 0%, var(--color-bg-card) 50%);
 }
 
 .patchCard:hover {
-  border-color: var(--color-accent);
+  border-color: rgba(240, 100, 20, 0.4);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .patchHeader {
@@ -100,74 +138,87 @@
 
 .patchTitle {
   font-size: var(--font-size-lg);
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--font-heading);
 }
 
 .patchMeta {
   display: flex;
   gap: var(--spacing-md);
+  align-items: center;
   font-size: var(--font-size-sm);
   color: var(--color-text-muted);
 }
 
 .patchVersion {
-  background: var(--color-accent);
-  color: var(--color-text);
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
-  font-weight: 500;
+  background: linear-gradient(135deg, var(--color-accent), #ff7a2e);
+  color: white;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: var(--font-size-xs);
 }
 
 .patchChanges {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-sm);
+  gap: 6px;
 }
 
 .patchChange {
   display: flex;
   align-items: flex-start;
   gap: var(--spacing-sm);
-  padding: var(--spacing-sm);
+  padding: 8px 12px;
   background: var(--color-bg-secondary);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast);
+}
+
+.patchChange:hover {
+  background: var(--color-bg-hover);
 }
 
 .patchChangeType {
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
   font-size: var(--font-size-xs);
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   flex-shrink: 0;
+  letter-spacing: 0.03em;
 }
 
 .patchChangeType--buff {
-  background: rgba(39, 174, 96, 0.2);
+  background: rgba(39, 174, 96, 0.15);
   color: #27AE60;
+  border: 1px solid rgba(39, 174, 96, 0.25);
 }
 
 .patchChangeType--nerf {
-  background: rgba(231, 76, 60, 0.2);
+  background: rgba(231, 76, 60, 0.15);
   color: #E74C3C;
+  border: 1px solid rgba(231, 76, 60, 0.25);
 }
 
 .patchChangeType--rework {
-  background: rgba(155, 89, 182, 0.2);
+  background: rgba(155, 89, 182, 0.15);
   color: #9B59B6;
+  border: 1px solid rgba(155, 89, 182, 0.25);
 }
 
 .patchChangeHero {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-text);
   flex-shrink: 0;
-  min-width: 100px;
+  min-width: 120px;
+  font-size: var(--font-size-sm);
 }
 
 .patchChangeDesc {
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
+  line-height: 1.5;
 }
 
 /* Legend */
@@ -175,8 +226,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-md);
-  margin-bottom: var(--spacing-lg);
-  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-md) var(--spacing-lg);
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
@@ -189,17 +240,34 @@
 }
 
 .tierLegendBadge {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   font-weight: 800;
   font-size: var(--font-size-sm);
+  font-family: var(--font-heading);
 }
 
 .tierLegendDesc {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .patchChange {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .patchChangeHero {
+    min-width: auto;
+  }
+
+  .metaInfo {
+    flex-direction: column;
+    align-items: center;
+  }
 }

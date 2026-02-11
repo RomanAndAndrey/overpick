@@ -47,6 +47,11 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Тонкий фоновый градиент для глубины */
+  background-image: 
+    radial-gradient(ellipse at 20% 0%, rgba(240, 100, 20, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(0, 191, 255, 0.02) 0%, transparent 50%);
+  background-attachment: fixed;
 }
 
 /* Типографика */
@@ -59,16 +64,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: var(--font-size-5xl);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
 h2 {
   font-size: var(--font-size-4xl);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 h3 {
   font-size: var(--font-size-3xl);
+  letter-spacing: -0.01em;
 }
 
 h4 {
@@ -114,21 +120,21 @@ img {
 
 /* Скроллбар */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-bg-secondary);
+  background: var(--color-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: var(--radius-sm);
+  background: var(--color-border-hover);
+  border-radius: var(--radius-full);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-border-hover);
+  background: var(--color-accent);
 }
 
 /* Контейнер */
@@ -143,11 +149,22 @@ img {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(12px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }
 
@@ -156,16 +173,36 @@ img {
     opacity: 1;
   }
   50% {
-    opacity: 0.7;
+    opacity: 0.6;
   }
 }
 
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 5px var(--color-accent);
+    box-shadow: 0 0 8px var(--color-accent-glow);
   }
   50% {
-    box-shadow: 0 0 20px var(--color-accent), 0 0 30px var(--color-accent);
+    box-shadow: 0 0 24px var(--color-accent-glow), 0 0 48px rgba(240, 100, 20, 0.15);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -186,10 +223,52 @@ img {
   animation: fadeIn 0.5s ease forwards;
 }
 
+.animate-fadeInScale {
+  animation: fadeInScale 0.4s var(--transition-slow) forwards;
+}
+
 /* Градиенты */
 .gradient-accent {
   background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-blue) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism карточка */
+.glass-card {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+}
+
+/* Подроль бейдж */
+.subrole-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+
+/* Индикатор нового героя */
+.new-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  background: linear-gradient(135deg, #ff4444, #ff6b6b);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  animation: pulse 2s ease-in-out infinite;
 }

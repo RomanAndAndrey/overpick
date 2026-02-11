@@ -1,4 +1,4 @@
-/* Стили HeroGrid компонента */
+/* HeroGrid — Overwatch Season 1 */
 .heroGrid {
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   gap: var(--spacing-md);
   align-items: center;
-  padding: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
@@ -26,24 +26,25 @@
 
 .heroGridSearchIcon {
   position: absolute;
-  left: var(--spacing-md);
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--color-text-muted);
-  font-size: 1.2rem;
+  font-size: 1rem;
   pointer-events: none;
 }
 
 .heroGridSearchInput {
   width: 100%;
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: 10px 14px;
   padding-left: 40px;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   color: var(--color-text);
-  font-size: var(--font-size-base);
-  transition: all var(--transition-fast);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-primary);
+  transition: all var(--transition-normal);
 }
 
 .heroGridSearchInput::placeholder {
@@ -53,41 +54,44 @@
 .heroGridSearchInput:focus {
   outline: none;
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 2px rgba(240, 100, 20, 0.2);
+  box-shadow: 0 0 0 3px rgba(240, 100, 20, 0.15);
 }
 
 /* Фильтры ролей */
 .heroGridFilters {
   display: flex;
-  gap: var(--spacing-xs);
+  gap: 6px;
 }
 
 .heroGridFilterBtn {
   display: flex;
   align-items: center;
-  gap: var(--spacing-xs);
-  padding: var(--spacing-sm) var(--spacing-md);
+  gap: 6px;
+  padding: 8px 14px;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-full);
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
+  font-family: var(--font-primary);
   cursor: pointer;
-  transition: all var(--transition-fast);
+  transition: all var(--transition-normal);
+  font-weight: 500;
 }
 
 .heroGridFilterBtn:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-border-hover);
   color: var(--color-text);
+  background: var(--color-bg-hover);
 }
 
 .heroGridFilterBtn--active {
   background: var(--color-accent);
   border-color: var(--color-accent);
-  color: var(--color-text);
+  color: white;
 }
 
-.heroGridFilterBtn--Tank.heroGridFilterBtn--active { background: #F0B429; border-color: #F0B429; }
+.heroGridFilterBtn--Tank.heroGridFilterBtn--active { background: #F0B429; border-color: #F0B429; color: #111; }
 .heroGridFilterBtn--Damage.heroGridFilterBtn--active { background: #E74C3C; border-color: #E74C3C; }
 .heroGridFilterBtn--Support.heroGridFilterBtn--active { background: #27AE60; border-color: #27AE60; }
 
@@ -97,12 +101,12 @@
   align-items: center;
   gap: var(--spacing-sm);
   color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
 }
 
 .heroGridResultsCount {
   color: var(--color-accent);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Сетка героев */
@@ -110,7 +114,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: var(--spacing-md);
-  animation: fadeIn 0.3s ease;
 }
 
 /* Группировка по ролям */
@@ -124,14 +127,15 @@
   gap: var(--spacing-sm);
   font-family: var(--font-heading);
   font-size: var(--font-size-lg);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: var(--spacing-md);
   padding-bottom: var(--spacing-sm);
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  letter-spacing: -0.01em;
 }
 
 .heroGridGroupIcon {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .heroGridGroupCount {
@@ -144,7 +148,7 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   to {
     opacity: 1;
@@ -168,15 +172,32 @@
 /* Пустое состояние */
 .heroGridEmpty {
   text-align: center;
-  padding: var(--spacing-2xl);
+  padding: var(--spacing-3xl);
   color: var(--color-text-muted);
 }
 
 .heroGridEmptyIcon {
   font-size: 3rem;
   margin-bottom: var(--spacing-md);
+  opacity: 0.5;
 }
 
 .heroGridEmptyText {
   font-size: var(--font-size-lg);
+}
+
+@media (max-width: 768px) {
+  .heroGridControls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .heroGridFilters {
+    flex-wrap: wrap;
+  }
+
+  .heroGridContainer {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: var(--spacing-sm);
+  }
 }
