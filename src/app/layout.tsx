@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "ru_RU",
@@ -44,17 +49,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
       <body>
         <a href="#main-content" className="skip-link">
           Перейти к содержимому
         </a>
         <Header />
-        <main id="main-content" role="main" style={{ paddingTop: 'calc(var(--header-height) + 36px)' }}>
+        <main id="main-content" role="main" className="mainContent">
           {children}
         </main>
       </body>

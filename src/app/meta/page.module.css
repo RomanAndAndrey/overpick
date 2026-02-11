@@ -249,7 +249,14 @@
   font-weight: 800;
   font-size: var(--font-size-sm);
   font-family: var(--font-heading);
+  color: #fff;
 }
+
+.tierLegendBadge--S { background: #FF4444; }
+.tierLegendBadge--A { background: #FF8844; }
+.tierLegendBadge--B { background: #FFCC44; color: #333; }
+.tierLegendBadge--C { background: #88CC44; }
+.tierLegendBadge--D { background: #888888; }
 
 .tierLegendDesc {
   font-size: var(--font-size-sm);

@@ -68,8 +68,7 @@ export default function MetaPage() {
           {TIER_ORDER.map(tier => (
             <div key={tier} className={styles.tierLegendItem}>
               <span 
-                className={styles.tierLegendBadge}
-                style={{ background: meta.tiers[tier].color, color: tier === 'B' ? '#333' : '#fff' }}
+                className={`${styles.tierLegendBadge} ${styles[`tierLegendBadge--${tier}`]}`}
               >
                 {tier}
               </span>

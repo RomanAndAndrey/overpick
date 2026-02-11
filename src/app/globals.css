@@ -145,6 +145,11 @@ img {
   padding: 0 var(--spacing-lg);
 }
 
+/* Основной контент с отступом под header + banner */
+.mainContent {
+  padding-top: calc(var(--header-height) + 36px);
+}
+
 /* Базовые анимации */
 @keyframes fadeIn {
   from {

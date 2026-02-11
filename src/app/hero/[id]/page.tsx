@@ -8,7 +8,7 @@ import heroesData from '@/data/heroes.json';
 import countersData from '@/data/counters.json';
 import metaData from '@/data/meta.json';
 import synergiesData from '@/data/synergies.json';
-import { Hero, HeroRole, ROLE_LABELS, SUBROLE_LABELS, SUBROLE_COLORS, HeroCounters, HeroSynergies } from '@/types/heroes';
+import { Hero, HeroRole, ROLE_LABELS, SUBROLE_LABELS, HeroCounters, HeroSynergies } from '@/types/heroes';
 import { HeroMeta, Tier, TierInfo } from '@/types/meta';
 import styles from './page.module.css';
 
@@ -123,12 +123,7 @@ export default async function HeroDetailPage({
               {/* Подроль */}
               {hero.subrole && (
                 <span 
-                  className={styles.heroDetailBadgeSubrole}
-                  style={{ 
-                    borderColor: SUBROLE_COLORS[hero.subrole] || '#888',
-                    color: SUBROLE_COLORS[hero.subrole] || '#888',
-                    background: `${SUBROLE_COLORS[hero.subrole]}15` || 'transparent'
-                  }}
+                  className={`${styles.heroDetailBadgeSubrole} ${styles[`heroDetailBadgeSubrole--${hero.subrole}`] || ''}`}
                 >
                   {SUBROLE_LABELS[hero.subrole] || hero.subrole}
                 </span>
@@ -186,7 +181,7 @@ export default async function HeroDetailPage({
               title=""
             />
           ) : (
-            <p style={{ color: 'var(--color-text-muted)' }}>
+            <p className={styles.noCountersText}>
               Контрпики для этого героя пока не добавлены
             </p>
           )}
