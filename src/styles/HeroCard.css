@@ -108,7 +108,7 @@
 }
 
 .heroCardTier--S { background: linear-gradient(135deg, #FF4444, #ff6666); color: white; }
-.heroCardTier--A { background: linear-gradient(135deg, #FF8844, #ffaa66); color: white; }
+.heroCardTier--A { background: linear-gradient(135deg, #3B82F6, #60a5fa); color: white; }
 .heroCardTier--B { background: linear-gradient(135deg, #FFCC44, #ffdd66); color: #333; }
 .heroCardTier--C { background: linear-gradient(135deg, #88CC44, #aadd66); color: #222; }
 .heroCardTier--D { background: #888888; color: white; }

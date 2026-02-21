@@ -1,5 +1,5 @@
 /* CSS переменные - дизайн-система Overpick */
-/* Обновлено под Overwatch Season 1 (ребрендинг февраль 2026) */
+/* Обновлено под Overwatch Season 1 (красно-синяя палитра, февраль 2026) */
 :root {
   /* Основные цвета — более глубокий тёмный стиль */
   --color-bg: #050508;
@@ -8,10 +8,10 @@
   --color-bg-hover: #1a1d24;
   --color-bg-elevated: #181b22;
 
-  /* Акцентные цвета — обновлённая палитра OW Season 1 */
-  --color-accent: #f06414;
-  --color-accent-hover: #ff7a2e;
-  --color-accent-glow: rgba(240, 100, 20, 0.4);
+  /* Акцентные цвета — красно-синяя палитра OW Season 1 */
+  --color-accent: #e63946;
+  --color-accent-hover: #ff4d5a;
+  --color-accent-glow: rgba(230, 57, 70, 0.4);
   --color-accent-blue: #00bfff;
   --color-accent-blue-hover: #33ccff;
   --color-accent-blue-glow: rgba(0, 191, 255, 0.3);
@@ -26,13 +26,13 @@
   /* Границы — более тонкие, стеклянные */
   --color-border: #1e2028;
   --color-border-hover: #2a2d38;
-  --color-border-accent: rgba(240, 100, 20, 0.3);
+  --color-border-accent: rgba(230, 57, 70, 0.3);
 
   /* Тени — глубокие */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
-  --shadow-accent: 0 4px 24px rgba(240, 100, 20, 0.25);
+  --shadow-accent: 0 4px 24px rgba(230, 57, 70, 0.25);
   --shadow-blue: 0 4px 24px rgba(0, 191, 255, 0.2);
 
   /* Размеры и отступы */

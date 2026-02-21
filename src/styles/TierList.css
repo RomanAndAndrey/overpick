@@ -45,7 +45,7 @@
 }
 
 .tierLabel--S { background: linear-gradient(180deg, #FF4444, #cc3333); }
-.tierLabel--A { background: linear-gradient(180deg, #FF8844, #cc6633); }
+.tierLabel--A { background: linear-gradient(180deg, #3B82F6, #2563EB); }
 .tierLabel--B { background: linear-gradient(180deg, #FFCC44, #ddaa33); color: #222; }
 .tierLabel--C { background: linear-gradient(180deg, #88CC44, #66aa33); }
 .tierLabel--D { background: linear-gradient(180deg, #888888, #666666); }

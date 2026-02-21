@@ -2,690 +2,4703 @@
   {
     "heroId": "dva",
     "counters": [
-      {"heroId": "zarya", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Заря получает энергию от матрицы защиты, а барьеры блокируют урон Д.Вы"},
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом выключает защитную матрицу и ускорители — D.Va беспомощна"},
-      {"heroId": "mei", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Замедление мешает мобильности, стена разделяет от команды"},
-      {"heroId": "reaper", "effectiveness": 5, "tier": "A", "counterRole": "Damage", "reason": "Огромный урон с близкого расстояния пробивает меху"},
-      {"heroId": "symmetra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Луч проходит сквозь матрицу защиты"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "DPS быстро расплавляет меху, если нет матрицы"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Липкие бомбы игнорируют матрицу при приклеивании"},
-      {"heroId": "winston", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Тесла проходит сквозь матрицу"},
-      {"heroId": "moira", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Луч проходит через матрицу, но урон мал"},
-      {"heroId": "brigitte", "effectiveness": 3, "tier": "C", "counterRole": "Support", "reason": "Может сбить полет и защитить саппортов"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Крюк проходит через матрицу"},
-      {"heroId": "sigma", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Камень (Аккреция) проходит через матрицу"}
+      {
+        "heroId": "zarya",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Заря получает энергию от матрицы защиты, а барьеры блокируют урон Д.Вы"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом выключает защитную матрицу и ускорители — D.Va беспомощна"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Замедление мешает мобильности, стена разделяет от команды"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 5,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Огромный урон с близкого расстояния пробивает меху"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Луч проходит сквозь матрицу защиты"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "DPS быстро расплавляет меху, если нет матрицы"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Липкие бомбы игнорируют матрицу при приклеивании"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Тесла проходит сквозь матрицу"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Луч проходит через матрицу, но урон мал"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Может сбить полет и защитить саппортов"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк проходит через матрицу"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Камень (Аккреция) проходит через матрицу"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Self-Destruct setup, антихил блокирует микро-ракеты хил"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает эффекты от ракет, кунаи пробивают матрицу"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд ускоряет де-мех, трансценденция контрит ульту"
+      }
     ]
   },
   {
     "heroId": "doomfist",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом полностью отключает все способности — Дум беззащитен"},
-      {"heroId": "orisa", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Стойкость и Джавелин отменяют все атаки Думфиста"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Магнитная граната останавливает мобильность"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Летает вне досягаемости ближнего боя"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Усыпляющая стрела прерывает комбо и Блок"},
-      {"heroId": "roadhog", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Крюк выдёргивает из дайва или блока"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Замораживание останавливает мобильность"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Турель пробивает блок и быстро убивает"},
-      {"heroId": "junkrat", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Капкан останавливает мобильность"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Может копировать и переиграть, летает вне зоны"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Может кайтить Думфиста, но опасна ваншотом"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "C", "counterRole": "Support", "reason": "Дискорд помогает быстро убить, но сам уязвим"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом полностью отключает все способности — Дум беззащитен"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Стойкость и Джавелин отменяют все атаки Думфиста"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Магнитная граната останавливает мобильность"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Летает вне досягаемости ближнего боя"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Усыпляющая стрела прерывает комбо и Блок"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк выдёргивает из дайва или блока"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Замораживание останавливает мобильность"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Турель пробивает блок и быстро убивает"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Капкан останавливает мобильность"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Может копировать и переиграть, летает вне зоны"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Может кайтить Думфиста, но опасна ваншотом"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Дискорд помогает быстро убить, но сам уязвим"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает стан от Meteor Strike, телепорт уводит союзников"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузырь поглощает Meteor Strike, луч трекает при дайве"
+      }
     ]
   },
   {
     "heroId": "hazard",
     "counters": [
-      {"heroId": "sigma", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Может есть шипы матрицей и станить камнем"},
-      {"heroId": "dva", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Матрица поглощает основной урон Хазарда"},
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Летает вне зоны контроля Хазарда"},
-      {"heroId": "echo", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Мобильность и дистанция нивелируют угрозу"},
-      {"heroId": "mauga", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Перестреливает Хазарда в ближнем бою"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Антихил и сон мешают агрессии"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом отключает способности и мобильность"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Заходит в спину, где нет защиты"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Высокий урон в ближнем бою"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "DPS пробивает защиту, если поймает без стены"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Снайперский урон с безопасной дистанции"}
+      {
+        "heroId": "sigma",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Может есть шипы матрицей и станить камнем"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Матрица поглощает основной урон Хазарда"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Летает вне зоны контроля Хазарда"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Мобильность и дистанция нивелируют угрозу"
+      },
+      {
+        "heroId": "mauga",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Перестреливает Хазарда в ближнем бою"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил и сон мешают агрессии"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает способности и мобильность"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Заходит в спину, где нет защиты"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Высокий урон в ближнем бою"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "DPS пробивает защиту, если поймает без стены"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Снайперский урон с безопасной дистанции"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает замедление от стены, кунаи наносят урон"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд ускоряет убийство, залпы пробивают стену"
+      }
     ]
   },
   {
     "heroId": "junkerqueen",
     "counters": [
-      {"heroId": "ana", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Антихил полностью блокирует вампиризм — Королева умирает"},
-      {"heroId": "kiriko", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Судзу снимает Rampage и антихил"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Недосягаема для ближнего боя и топора"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Убивает до сближения"},
-      {"heroId": "bastion", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Расплавляет до подхода вплотную"},
-      {"heroId": "zarya", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Барьеры снимают эффекты кровотечения"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Выигрывает размены в ближнем бою"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Стена изолирует Королеву от хила"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Граната мешает маневрировать"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Дискорд позволяет быстро убить"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Воздушная мобильность недосягаема"}
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил полностью блокирует вампиризм — Королева умирает"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Судзу снимает Rampage и антихил"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Недосягаема для ближнего боя и топора"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Убивает до сближения"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Расплавляет до подхода вплотную"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Барьеры снимают эффекты кровотечения"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Выигрывает размены в ближнем бою"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Стена изолирует Королеву от хила"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Граната мешает маневрировать"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд позволяет быстро убить"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Воздушная мобильность недосягаема"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит на подходе, ваншот комбо до того как сработает Commanding Shout"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Гравитационный поток контрит Rampage, барьер блокирует нож"
+      }
     ]
   },
   {
     "heroId": "mauga",
     "counters": [
-      {"heroId": "ana", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Антихил блокирует Берсерк — Мауга умирает мгновенно"},
-      {"heroId": "sigma", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Щит и поглощение блокируют весь урон Мауги"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает весь входящий урон"},
-      {"heroId": "zenyatta", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Дискорд делает огромную тушу легкой мишенью"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Огромный урон в упор по большой цели"},
-      {"heroId": "bastion", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "В режиме турели перестреливает Маугу"},
-      {"heroId": "hanzo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Штормовые стрелы быстро сжигают HP"},
-      {"heroId": "sojourn", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Заряжает рельсу об Маугу нон-стоп"},
-      {"heroId": "kiriko", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Судзу снимает антихил и спасает от ульты"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Взлом отключает рывок и Берсерк"}
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Берсерк — Мауга умирает мгновенно"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Щит и поглощение блокируют весь урон Мауги"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает весь входящий урон"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Дискорд делает огромную тушу легкой мишенью"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Огромный урон в упор по большой цели"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "В режиме турели перестреливает Маугу"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Штормовые стрелы быстро сжигают HP"
+      },
+      {
+        "heroId": "sojourn",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Заряжает рельсу об Маугу нон-стоп"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Судзу снимает антихил и спасает от ульты"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает рывок и Берсерк"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузыри снимают горение, заряжается от двойных пулемётов"
+      }
     ]
   },
   {
     "heroId": "orisa",
     "counters": [
-      {"heroId": "zarya", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Луч проходит сквозь крутилку, игнорирует броню"},
-      {"heroId": "symmetra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Заряжается об Орису, луч игнорирует поглощение"},
-      {"heroId": "bastion", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "DPS превосходит стойкость Орисы вне кулдаунов"},
-      {"heroId": "zenyatta", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Дискорд пробивает фортификацию уроном"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Лазер сжигает Орису на лоу-хп, полет спасает"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ориса плохо справляется с вертолетами"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Высокий урон с близкого расстояния"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Антихил мешает выживать"},
-      {"heroId": "sojourn", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Фармит заряд рельсы на Орисе"},
-      {"heroId": "junkrat", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Спам пробивает защиту"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Стена изолирует от команды"}
+      {
+        "heroId": "zarya",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Луч проходит сквозь крутилку, игнорирует броню"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Заряжается об Орису, луч игнорирует поглощение"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "DPS превосходит стойкость Орисы вне кулдаунов"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Дискорд пробивает фортификацию уроном"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Лазер сжигает Орису на лоу-хп, полет спасает"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ориса плохо справляется с вертолетами"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Высокий урон с близкого расстояния"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил мешает выживать"
+      },
+      {
+        "heroId": "sojourn",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Фармит заряд рельсы на Орисе"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Спам пробивает защиту"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Стена изолирует от команды"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Рок прерывает Javelin Spin, гравитационный поток снимает фортификацию"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк вытягивает между кулдаунами фортификации"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает Javelin Spin замедление, кунаи в большой хитбокс"
+      }
     ]
   },
   {
     "heroId": "ramattra",
     "counters": [
-      {"heroId": "ana", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Сон останавливает форму Немезиды, банка не дает хилить"},
-      {"heroId": "zenyatta", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Дискорд уничтожает Раматтру даже в блоке"},
-      {"heroId": "bastion", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Огромный DPS пробивает форму Немезиды"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Урон в упор убивает быстро, игнорирует щит"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Вне досягаемости Немезиды"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Мобильность и урон сверху"},
-      {"heroId": "roadhog", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Ульта Хога отталкивает ультующего Раматтру"},
-      {"heroId": "orisa", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Сдерживает Раматтру копьем и крутилкой"},
-      {"heroId": "kiriko", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Судзу спасает от урона ульты"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Кайтит форму Немезиды"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Блокирует смену форм"}
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Сон останавливает форму Немезиды, банка не дает хилить"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Дискорд уничтожает Раматтру даже в блоке"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Огромный DPS пробивает форму Немезиды"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Урон в упор убивает быстро, игнорирует щит"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Вне досягаемости Немезиды"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Мобильность и урон сверху"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Ульта Хога отталкивает ультующего Раматтру"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Сдерживает Раматтру копьем и крутилкой"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу спасает от урона ульты"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Кайтит форму Немезиды"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Блокирует смену форм"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузыри снимают замедление Vortex, заряжается от Ravenous Vortex"
+      }
     ]
   },
   {
     "heroId": "reinhardt",
     "counters": [
-      {"heroId": "bastion", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ломает щит за секунды, не дает подойти"},
-      {"heroId": "orisa", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Полный контроль, пробивает щит, не дает чарджиться"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Проходит сквозь щит и убивает в упор"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Бьёт безнаказанно сверху за щит"},
-      {"heroId": "junkrat", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Спам быстро ломает щит, мина отбрасывает"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Сон прерывает чардж, банка за щит"},
-      {"heroId": "zenyatta", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Дискорд + спам шаров уничтожают щит и Райна"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Стена разделяет от команды, заморозка сквозь щит"},
-      {"heroId": "symmetra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Заряжается об щит, телепорт за спину"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Кружит вокруг, бомба на щит"},
-      {"heroId": "ramattra", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Удары Немезиды проходят сквозь щит"}
+      {
+        "heroId": "bastion",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ломает щит за секунды, не дает подойти"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Полный контроль, пробивает щит, не дает чарджиться"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Проходит сквозь щит и убивает в упор"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Бьёт безнаказанно сверху за щит"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Спам быстро ломает щит, мина отбрасывает"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает чардж, банка за щит"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Дискорд + спам шаров уничтожают щит и Райна"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Стена разделяет от команды, заморозка сквозь щит"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Заряжается об щит, телепорт за спину"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Кружит вокруг, бомба на щит"
+      },
+      {
+        "heroId": "ramattra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Удары Немезиды проходят сквозь щит"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Рок оглушает через щит, гравитационный поток поднимает в воздух"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает Earthshatter стан, кунаи обходят щит с фланга"
+      }
     ]
   },
   {
     "heroId": "roadhog",
     "counters": [
-      {"heroId": "ana", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Антихил блокирует самолечение — Хряк умирает"},
-      {"heroId": "zenyatta", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Дискорд на огромную цель — мгновенная смерть"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Огромный урон по туше, хил при атаке"},
-      {"heroId": "sojourn", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Фармит заряд рельсы об Хога"},
-      {"heroId": "mauga", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Впитывает урон Хога и перестреливает его"},
-      {"heroId": "orisa", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Копье сбивает хил и хук"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица съедает выстрелы после хука"},
-      {"heroId": "sigma", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Щит блокирует хук, поглощение ест ульту"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Турель распиливает, если Хог без хука"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Стена изолирует от команды"},
-      {"heroId": "kiriko", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Судзу снимает антихил"}
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует самолечение — Хряк умирает"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Дискорд на огромную цель — мгновенная смерть"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Огромный урон по туше, хил при атаке"
+      },
+      {
+        "heroId": "sojourn",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Фармит заряд рельсы об Хога"
+      },
+      {
+        "heroId": "mauga",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Впитывает урон Хога и перестреливает его"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Копье сбивает хил и хук"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает выстрелы после хука"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Щит блокирует хук, поглощение ест ульту"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Турель распиливает, если Хог без хука"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Стена изолирует от команды"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Судзу снимает антихил"
+      }
     ]
   },
   {
     "heroId": "sigma",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом отключает щит и поглощение, сбивает ульту"},
-      {"heroId": "symmetra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Луч заряжается об щит и проходит сквозь поглощение"},
-      {"heroId": "zarya", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Луч игнорирует поглощение и щит"},
-      {"heroId": "mei", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Спрей игнорирует поглощение, стена мешает"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Тесла проходит сквозь щит и поглощение"},
-      {"heroId": "reinhardt", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Молот игнорирует всё, сближение опасно"},
-      {"heroId": "moira", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Орбы и луч проходят сквозь поглощение"},
-      {"heroId": "doomfist", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Удары игнорируют щит"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Заходит за спину, трудно попасть сферами"},
-      {"heroId": "genji", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Дэш сквозь щит, блейд игнорирует поглощение"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Лазер добивает сквозь поглощение"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает щит и поглощение, сбивает ульту"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Луч заряжается об щит и проходит сквозь поглощение"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Луч игнорирует поглощение и щит"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Спрей игнорирует поглощение, стена мешает"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Тесла проходит сквозь щит и поглощение"
+      },
+      {
+        "heroId": "reinhardt",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Молот игнорирует всё, сближение опасно"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Орбы и луч проходят сквозь поглощение"
+      },
+      {
+        "heroId": "doomfist",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Удары игнорируют щит"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Заходит за спину, трудно попасть сферами"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Дэш сквозь щит, блейд игнорирует поглощение"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Лазер добивает сквозь поглощение"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Gravitic Flux, антихил блокирует щиты"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает Gravitic Flux, кунаи обходят барьер с фланга"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит Gravitic Flux, прыжок обходит рок"
+      }
     ]
   },
   {
     "heroId": "winston",
     "counters": [
-      {"heroId": "reaper", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Расплавляет обезьяну в упор, лечится от урона"},
-      {"heroId": "bastion", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Турель уничтожает купол и Уинстона за секунды"},
-      {"heroId": "roadhog", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дробовик сносит много ХП, хук ловит прыжок"},
-      {"heroId": "mauga", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Сжигает Уинстона, испоьзует его как батарейку"},
-      {"heroId": "torbjorn", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Дробовик (ПКМ) уничтожает Уинстона, броня помогает"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица не работает, но дробовики наносят много урона"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон прерывает Ярость, но купол мешает хилить"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Дискорд + кикер отбрасывает"},
-      {"heroId": "brigitte", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Отбрасывает прыжок, броня режет урон Теслы"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Замораживает большого танка, но может упрыгнуть"}
+      {
+        "heroId": "reaper",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Расплавляет обезьяну в упор, лечится от урона"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Турель уничтожает купол и Уинстона за секунды"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дробовик сносит много ХП, хук ловит прыжок"
+      },
+      {
+        "heroId": "mauga",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Сжигает Уинстона, испоьзует его как батарейку"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дробовик (ПКМ) уничтожает Уинстона, броня помогает"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица не работает, но дробовики наносят много урона"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Ярость, но купол мешает хилить"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд + кикер отбрасывает"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Отбрасывает прыжок, броня режет урон Теслы"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Замораживает большого танка, но может упрыгнуть"
+      }
     ]
   },
   {
     "heroId": "wreckingball",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом выбивает из шара, полная остановка"},
-      {"heroId": "mei", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Стена останавливает, заморозка не дает разогнаться"},
-      {"heroId": "roadhog", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Крюк останавливает вращение и пайлдрайвер"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Граната останавливает движение"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Сон — легкая мишень из-за размеров"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "В турели не сдвигается, вливает тонну урона"},
-      {"heroId": "brigitte", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Баш сбивает крюк-кошку и разгон"},
-      {"heroId": "orisa", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Копье и крутилка останавливают"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Дискорд на мобильную цель"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "C", "counterRole": "Damage", "reason": "Фармит ульту на шаре"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом выбивает из шара, полная остановка"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Стена останавливает, заморозка не дает разогнаться"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк останавливает вращение и пайлдрайвер"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Граната останавливает движение"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон — легкая мишень из-за размеров"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "В турели не сдвигается, вливает тонну урона"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Баш сбивает крюк-кошку и разгон"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Копье и крутилка останавливают"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд на мобильную цель"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Фармит ульту на шаре"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Рок останавливает катящийся шар, гравитационный поток ловит в воздухе"
+      }
     ]
   },
   {
     "heroId": "zarya",
     "counters": [
-      {"heroId": "reinhardt", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Щит блокирует луч, молот бьет сильно"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Купол отрезает луч, прыжок разрывает дистанцию"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Летает вне досягаемости луча"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Урон с воздуха, луч добивает"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Хедшот убивает через заряд, держит дистанцию"},
-      {"heroId": "bastion", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Может пробить барьер грубой силой"},
-      {"heroId": "sojourn", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Мобильность и дистанция"},
-      {"heroId": "ashe", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Держит дистанцию, динамит форсит барьер"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Дискорд + трансцендентность контрит гравитон"},
-      {"heroId": "lucio", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Бит контрит гравитон"},
-      {"heroId": "sombra", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "ЕМП сносит здоровье (щиты) и барьеры"}
+      {
+        "heroId": "reinhardt",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Щит блокирует луч, молот бьет сильно"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Купол отрезает луч, прыжок разрывает дистанцию"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Летает вне досягаемости луча"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Урон с воздуха, луч добивает"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Хедшот убивает через заряд, держит дистанцию"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Может пробить барьер грубой силой"
+      },
+      {
+        "heroId": "sojourn",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Мобильность и дистанция"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Держит дистанцию, динамит форсит барьер"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд + трансцендентность контрит гравитон"
+      },
+      {
+        "heroId": "lucio",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бит контрит гравитон"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "ЕМП сносит здоровье (щиты) и барьеры"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение ест гравитон, рок оглушает запотенную Зарю"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует хил от пузырей, сон ловит при высокой энергии"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает гравитон — полностью контрит ульту"
+      }
     ]
   },
   {
     "heroId": "ashe",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Снайпер побеждает снайпера, ваншот с дистанции"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Отражает все выстрелы и динамит, дайвит"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Слишком мобильна для прицела, заходит в тыл"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает Боба и выстрелы, дайвит"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв давит снайпера, купол блокирует динамит"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом и хак с тыла, мешает занимать позиции"},
-      {"heroId": "hanzo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ваншот с дистанции, но сложнее попасть"},
-      {"heroId": "doomfist", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Дайв сбивает с позиции"},
-      {"heroId": "kiriko", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Судзу снимает горение от динамита"},
-      {"heroId": "echo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Может переирать в воздухе, но Эш хитскан"},
-      {"heroId": "sojourn", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Мобильность и дистанция"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Снайпер побеждает снайпера, ваншот с дистанции"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Отражает все выстрелы и динамит, дайвит"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Слишком мобильна для прицела, заходит в тыл"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает Боба и выстрелы, дайвит"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв давит снайпера, купол блокирует динамит"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом и хак с тыла, мешает занимать позиции"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, но сложнее попасть"
+      },
+      {
+        "heroId": "doomfist",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Дайв сбивает с позиции"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает горение от динамита"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Может переирать в воздухе, но Эш хитскан"
+      },
+      {
+        "heroId": "sojourn",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Мобильность и дистанция"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон на дистанции, антихил блокирует хил от Coach Gun"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит ваншоты, хитскан урон на дистанции"
+      }
     ]
   },
   {
     "heroId": "bastion",
     "counters": [
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Отражение возвращает весь DPS турели в Бастиона"},
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Хедшот убивает через полкарты, пока он в турели"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Штормовые стрелы и Дракон уничтожают статику"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом выбивает из режима турели"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Бомба прилипает к большой цели, ваншот"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон выбивает из режима, банка мешает хилу"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Телепорт за спину, огромный урон по хитбоксу"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица блокирует весь урон турели"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Крюк выдёргивает из режима турели"},
-      {"heroId": "pharah", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Спам из-за углов"},
-      {"heroId": "sigma", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Камень выбивает из турели, поглощение ест урон"}
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Отражение возвращает весь DPS турели в Бастиона"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хедшот убивает через полкарты, пока он в турели"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Штормовые стрелы и Дракон уничтожают статику"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом выбивает из режима турели"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Бомба прилипает к большой цели, ваншот"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон выбивает из режима, банка мешает хилу"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Телепорт за спину, огромный урон по хитбоксу"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица блокирует весь урон турели"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк выдёргивает из режима турели"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Спам из-за углов"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Камень выбивает из турели, поглощение ест урон"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Телепорт спасает союзников из-под фокуса турели"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит турельный урон, Amp Matrix усиливает контр-урон"
+      }
     ]
   },
   {
     "heroId": "cassidy",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Хедшот на дистанции, где Кэссиди слаб"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Отражает гранату и выстрелы, сложно попасть"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Блинки уклоняются от гранаты, заходит в спину"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает Deadeye и гранату"},
-      {"heroId": "winston", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Дайв заставляет откатываться, купол мешает"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Сложно попасть в воздухе с фоллофф уроном"},
-      {"heroId": "hanzo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ваншот и мобильность, дистанция"},
-      {"heroId": "ashe", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Динамит и Боб создают проблемы"},
-      {"heroId": "zarya", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Снимает гранату барьером"},
-      {"heroId": "sigma", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Щит и поглощение ульты"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хедшот на дистанции, где Кэссиди слаб"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Отражает гранату и выстрелы, сложно попасть"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Блинки уклоняются от гранаты, заходит в спину"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает Deadeye и гранату"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Дайв заставляет откатываться, купол мешает"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Сложно попасть в воздухе с фоллофф уроном"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ваншот и мобильность, дистанция"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Динамит и Боб создают проблемы"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Снимает гранату барьером"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Щит и поглощение ульты"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Deadeye, антихил блокирует Combat Roll хил (новый перк)"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Судзу снимает магнитную гранату, телепорт из Deadeye"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Фейд избегает гранату и Deadeye, луч автоцелится"
+      }
     ]
   },
   {
     "heroId": "echo",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Снайпер сбивает в воздухе (ваншот)"},
-      {"heroId": "cassidy", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Хитскан следит за полётом, граната лочит"},
-      {"heroId": "soldier76", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Стабильный хитскан урон, визор"},
-      {"heroId": "ashe", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Прицельный огонь с дистанции"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица и полёт догоняют, микке ракеты"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон сбивает в воздухе, хитскан в прицеле"},
-      {"heroId": "baptiste", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Хитскан, бессмертие от луча"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом отключает полёт — Эхо падает"},
-      {"heroId": "tracer", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Сложно попасть, но бомба после копии опасна"},
-      {"heroId": "genji", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Сложно достать, но может отразить липучки"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Снайпер сбивает в воздухе (ваншот)"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хитскан следит за полётом, граната лочит"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Стабильный хитскан урон, визор"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Прицельный огонь с дистанции"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица и полёт догоняют, микке ракеты"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон сбивает в воздухе, хитскан в прицеле"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Хитскан, бессмертие от луча"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает полёт — Эхо падает"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Сложно попасть, но бомба после копии опасна"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Сложно достать, но может отразить липучки"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Тесла достаёт в воздухе, прыжок догоняет при приземлении"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк сбивает при низком полёте, ваншот на 200HP"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот на 200HP, судзу спасает от Focusing Beam"
+      }
     ]
   },
   {
     "heroId": "freja",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Летает вне досягаемости болтов и абилок"},
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ваншот с дистанции, пока Фрея целится"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Мобильность избегает урона арбалета"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Отражение и дэши мешают прицеливанию"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв давит, не дает занять хайграунд"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом отключает способности к побегу"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон прерывает агрессию и ульту"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица ест болты"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Воздушная дуэль"},
-      {"heroId": "reaper", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Телепорт за спину"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Летает вне досягаемости болтов и абилок"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, пока Фрея целится"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Мобильность избегает урона арбалета"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Отражение и дэши мешают прицеливанию"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв давит, не дает занять хайграунд"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает способности к побегу"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает агрессию и ульту"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица ест болты"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная дуэль"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Телепорт за спину"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Баш прерывает, щит блокирует урон"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч автоцелится по мобильной Фрее, фейд спасает от дайва"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит мобильную Фрею, ваншот комбо на 200HP"
+      }
     ]
   },
   {
     "heroId": "genji",
     "counters": [
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Тесла автонаводится и не отражается, прыжок догоняет"},
-      {"heroId": "mei", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Замораживание (луч) не отражается и замедляет"},
-      {"heroId": "zarya", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Луч игнорирует отражение, пузырь спасает от комбо"},
-      {"heroId": "symmetra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Турели замедляют, луч не отражается"},
-      {"heroId": "moira", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Луч следует за уклонением, орб в коридорах"},
-      {"heroId": "brigitte", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Щит блокирует сюрикены, баш сбивает контроль"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом отключает дэши и дефлект — Гэндзи труп"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Сложно достать в воздухе мечом"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Воздушная цель, луч добивает"},
-      {"heroId": "torbjorn", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Турель автонаводится, мешает фланковать"}
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Тесла автонаводится и не отражается, прыжок догоняет"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Замораживание (луч) не отражается и замедляет"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Луч игнорирует отражение, пузырь спасает от комбо"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Турели замедляют, луч не отражается"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Луч следует за уклонением, орб в коридорах"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Щит блокирует сюрикены, баш сбивает контроль"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает дэши и дефлект — Гэндзи труп"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Сложно достать в воздухе мечом"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная цель, луч добивает"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Турель автонаводится, мешает фланковать"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Dragonblade, антихил снижает выживание"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит при дэше, ваншот на 200HP даже через дефлект"
+      }
     ]
   },
   {
     "heroId": "hanzo",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Хитскан снайпер быстрее и точнее"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Отражает стрелы (и ульту!), мобильность мешает попасть"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Слишком быстра для прицела, заходит в спину"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает стрелы и драконов"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв давит лучника, купол блокирует стрелы"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хак с тыла, невидимость"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Атака с воздуха, сложно попасть"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Воздушная цель"},
-      {"heroId": "wreckingball", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Быстрый, много ХП, пайлдрайвер"},
-      {"heroId": "kiriko", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Судзу может спасти от хедшота или ульты"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хитскан снайпер быстрее и точнее"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Отражает стрелы (и ульту!), мобильность мешает попасть"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Слишком быстра для прицела, заходит в спину"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает стрелы и драконов"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв давит лучника, купол блокирует стрелы"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хак с тыла, невидимость"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Атака с воздуха, сложно попасть"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная цель"
+      },
+      {
+        "heroId": "wreckingball",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Быстрый, много ХП, пайлдрайвер"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Судзу может спасти от хедшота или ульты"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон на дистанции ловит неподвижного Ханзо, антихил в дайв"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит ваншоты, прыжок сбивает прицел"
+      }
     ]
   },
   {
     "heroId": "junkrat",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Гранаты не летают вверх, Фарра доминирует"},
-      {"heroId": "echo", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Воздушная мобильность, бомбы липнут"},
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Снайпер на дистанции вне досягаемости спама"},
-      {"heroId": "ashe", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Дистанция и динамит"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот с дистанции, видит через стены (соник)"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Отражение опасно для гранат и мин"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом уничтожает шину (ульту)"},
-      {"heroId": "zarya", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Барьер заряжается от спама"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица ест гранаты и мины"},
-      {"heroId": "tracer", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Мобильность, но может случайно поймать гранату"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Гранаты не летают вверх, Фарра доминирует"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Воздушная мобильность, бомбы липнут"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Снайпер на дистанции вне досягаемости спама"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дистанция и динамит"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, видит через стены (соник)"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Отражение опасно для гранат и мин"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом уничтожает шину (ульту)"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Барьер заряжается от спама"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица ест гранаты и мины"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Мобильность, но может случайно поймать гранату"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает RIP-Tire, антихил через зоны контроля"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает ловушку, телепорт из зоны гранат"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит RIP-Tire, прыжок над гранатами"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение ест гранаты, рок оглушает при установке RIP-Tire"
+      }
     ]
   },
   {
     "heroId": "mei",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Замораживание бесполезно против полёта"},
-      {"heroId": "echo", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Летает вне зоны замедления, луч добивает"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Хедшот до подхода Мэй"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот с дистанции"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Призрак уходит от заморозки, урон в упор"},
-      {"heroId": "junkrat", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Урон до сближения, трап ловит в глыбе"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом блокирует ледяную стену и глыбу"},
-      {"heroId": "tracer", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Блинки избегают замораживания"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хедшот + граната быстрее заморозки"},
-      {"heroId": "bastion", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Пробивает стену, но Мэй может поднять его"},
-      {"heroId": "orisa", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Фортификация игнорирует заморозку"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Замораживание бесполезно против полёта"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Летает вне зоны замедления, луч добивает"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Хедшот до подхода Мэй"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Призрак уходит от заморозки, урон в упор"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Урон до сближения, трап ловит в глыбе"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом блокирует ледяную стену и глыбу"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Блинки избегают замораживания"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хедшот + граната быстрее заморозки"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Пробивает стену, но Мэй может поднять его"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Фортификация игнорирует заморозку"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Полёт перелетает стену, микро-ракеты дамажат Cryo-Freeze"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузырь снимает замедление, луч пробивает стену"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Прыжок перелетает стену, тесла через Cryo-Freeze"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Cryo-Freeze хил, сон ловит после стены"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает замедление, телепорт через стену"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Фейд проходит через стену, орб дамажит Cryo-Freeze"
+      }
     ]
   },
   {
     "heroId": "pharah",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Мгновенный хедшот в воздухе, Фарра подавлена"},
-      {"heroId": "cassidy", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Хитскан следит за полётом, ульта ловит"},
-      {"heroId": "ashe", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Прицельный хитскан и динамит"},
-      {"heroId": "soldier76", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Стабильный трекинг, визор сбивает"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Воздушный дуэль, Эхо быстрее"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица ест ракеты и ульту, полет догоняет"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Снайперский хилскан, сон в ульту"},
-      {"heroId": "baptiste", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Хитскан берст урон"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом сбивает с неба (временно), отключает ранец"},
-      {"heroId": "mauga", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Поджигает в воздухе хитсканом"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Мгновенный хедшот в воздухе, Фарра подавлена"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хитскан следит за полётом, ульта ловит"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Прицельный хитскан и динамит"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Стабильный трекинг, визор сбивает"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Воздушный дуэль, Эхо быстрее"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест ракеты и ульту, полет догоняет"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Снайперский хилскан, сон в ульту"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Хитскан берст урон"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом сбивает с неба (временно), отключает ранец"
+      },
+      {
+        "heroId": "mauga",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Поджигает в воздухе хитсканом"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Прыжок достаёт при низком полёте, тесла в большой силуэт"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот на воздушной цели, судзу спасает от Barrage"
+      }
     ]
   },
   {
     "heroId": "reaper",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Дробовики бесполезны, Фарра убивает сверху"},
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ваншот с дистанции, Рипер не может подойти"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Воздушная мобильность, лазер добивает"},
-      {"heroId": "ana", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Сон прерывает ульту, банка блокирует самолечение"},
-      {"heroId": "ashe", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Отбрасывает дробовиком, держит дистанцию"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот или штормовые стрелы издалека"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Матрица съедает весь урон Рипера"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Граната и фан зе хаммер"},
-      {"heroId": "junkrat", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Трап ловит при выходе из телепорта, спам"},
-      {"heroId": "lucio", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Буп отталкивает от команды, спидбуст убегает"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Дробовики бесполезны, Фарра убивает сверху"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, Рипер не может подойти"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Воздушная мобильность, лазер добивает"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает ульту, банка блокирует самолечение"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Отбрасывает дробовиком, держит дистанцию"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот или штормовые стрелы издалека"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает весь урон Рипера"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Граната и фан зе хаммер"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Трап ловит при выходе из телепорта, спам"
+      },
+      {
+        "heroId": "lucio",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Буп отталкивает от команды, спидбуст убегает"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузырь спасает от шотгана, заряжается от высокого урона"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение контрит шотган, рок оглушает при телепорте"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу спасает от Death Blossom, телепорт уводит союзников"
+      }
     ]
   },
   {
     "heroId": "sojourn",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Снайперская дуэль: Вдова быстрее и дальше"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Отражает рельсу, дайвит"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает заряд рельсы и дисраптор"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв мешает заряжаться и целиться"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Блинки уклоняются от рельсы"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом отключает слайд, легкая цель"},
-      {"heroId": "kiriko", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Судзу снимает замедление, хедшот убивает"},
-      {"heroId": "lucio", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Спидбуст мешает попадать рельсой"},
-      {"heroId": "ashe", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Динамит выкуривает, Боб мешает"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Снайперская дуэль: Вдова быстрее и дальше"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Отражает рельсу, дайвит"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает заряд рельсы и дисраптор"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв мешает заряжаться и целиться"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Блинки уклоняются от рельсы"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает слайд, легкая цель"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает замедление, хедшот убивает"
+      },
+      {
+        "heroId": "lucio",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Спидбуст мешает попадать рельсой"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Динамит выкуривает, Боб мешает"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон ловит при зарядке рейлгана, антихил через позицию"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит при слайде, ваншот до зарядки рейлгана"
+      }
     ]
   },
   {
     "heroId": "soldier76",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ваншот издалека, Солдат не достает"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Дефлект возвращает урон, дайв убивает"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица съедает весь визор и ракеты"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв не дает стоять на хайграунде"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Слишком быстра для трекинга"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Хук выдёргивает из хилки"},
-      {"heroId": "sigma", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Щит и поглощение блокируют визор"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон прерывает визор"},
-      {"heroId": "hanzo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ваншот, соник видит передвижение"},
-      {"heroId": "doomfist", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Панч выбивает из хилки"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ваншот издалека, Солдат не достает"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Дефлект возвращает урон, дайв убивает"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает весь визор и ракеты"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв не дает стоять на хайграунде"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Слишком быстра для трекинга"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Хук выдёргивает из хилки"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Щит и поглощение блокируют визор"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает визор"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ваншот, соник видит передвижение"
+      },
+      {
+        "heroId": "doomfist",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Панч выбивает из хилки"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу контрит Tactical Visor, телепорт уводит союзников"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит визор, хитскан дуэлит на дистанции"
+      }
     ]
   },
   {
     "heroId": "sombra",
     "counters": [
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Тесла обнаруживает невидимость без прицеливания"},
-      {"heroId": "moira", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Луч присасывается, орб выбивает из стелса"},
-      {"heroId": "torbjorn", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Турель реагирует мгновенно при выходе из стелса"},
-      {"heroId": "symmetra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Турели обнаруживают и замедляют"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Бесконечный огонь (шрапнель) проверяет углы"},
-      {"heroId": "brigitte", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Хит по области, щит блокирует взлом"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Спрей легко находит невидимку"},
-      {"heroId": "hanzo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Соник стрела показывает позицию"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ульта (инфравизор) полностью контрит Сомбру"},
-      {"heroId": "kiriko", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Судзу снимает взлом/вирус, телепорт спасает"}
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Тесла обнаруживает невидимость без прицеливания"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Луч присасывается, орб выбивает из стелса"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Турель реагирует мгновенно при выходе из стелса"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Турели обнаруживают и замедляют"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Бесконечный огонь (шрапнель) проверяет углы"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Хит по области, щит блокирует взлом"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Спрей легко находит невидимку"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Соник стрела показывает позицию"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ульта (инфравизор) полностью контрит Сомбру"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Судзу снимает взлом/вирус, телепорт спасает"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Пузырь снимает взлом, не теряет способности"
+      }
     ]
   },
   {
     "heroId": "symmetra",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Турели и луч бесполезны, ракеты ломают всё"},
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Тесла сносит все турели сразу, дайв убивает"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Атака с воздуха, луч добивает"},
-      {"heroId": "junkrat", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Спам уничтожает гнездо турелей случайно"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Бомба уничтожает телепорт и Симметру"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "ЕМП сносит все щиты (здоровье Симметры) и ульту"},
-      {"heroId": "zarya", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Заряжается от турелей, луч сильнее"},
-      {"heroId": "mei", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Стена ломает построение турелей"},
-      {"heroId": "mauga", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Сжигает турели, но Симметра заряжается об него"},
-      {"heroId": "roadhog", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Ваншот, но турели мешают хуку"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Турели и луч бесполезны, ракеты ломают всё"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Тесла сносит все турели сразу, дайв убивает"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Атака с воздуха, луч добивает"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Спам уничтожает гнездо турелей случайно"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Бомба уничтожает телепорт и Симметру"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "ЕМП сносит все щиты (здоровье Симметры) и ульту"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Заряжается от турелей, луч сильнее"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Стена ломает построение турелей"
+      },
+      {
+        "heroId": "mauga",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Сжигает турели, но Симметра заряжается об него"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Ваншот, но турели мешают хуку"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает на заряженном луче, антихил через турели"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Телепорт проходит через Photon Barrier, кунаи обходят турели"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Фейд проходит через Photon Barrier, орб уничтожает турели"
+      }
     ]
   },
   {
     "heroId": "torbjorn",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Уничтожает турель с воздуха без урона"},
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Снимает турель и Торба с безопасной дистанции"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Легко ломает турель стрелами"},
-      {"heroId": "junkrat", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Спам из-за угла ломает всё"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Липучки и луч сносят турель"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон в перегрузку, банка в ульту"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хак отключает турель на время"},
-      {"heroId": "soldier76", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ракеты + выстрелы быстро ломают турель"},
-      {"heroId": "dva", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Бомба ломает турель, но Торб пробивает меху"},
-      {"heroId": "zarya", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Заряжается от урона турели"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Уничтожает турель с воздуха без урона"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Снимает турель и Торба с безопасной дистанции"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Легко ломает турель стрелами"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Спам из-за угла ломает всё"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Липучки и луч сносят турель"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон в перегрузку, банка в ульту"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хак отключает турель на время"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ракеты + выстрелы быстро ломают турель"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Бомба ломает турель, но Торб пробивает меху"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Заряжается от урона турели"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот ваншотит турель, телепорт из Molten Core"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит Molten Core, прыжок над лавой"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение ест выстрелы, рок оглушает при Overcharge"
+      }
     ]
   },
   {
     "heroId": "tracer",
     "counters": [
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Автонаведение Теслы, прыжок преследует"},
-      {"heroId": "torbjorn", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Турель не промахивается, ваншот в голову (ПКМ)"},
-      {"heroId": "symmetra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Турели замедляют и убивают, сложно увернуться"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Хедшот ваншотает, граната мешает"},
-      {"heroId": "illari", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Турель хилит, отбрасывает Трейсер"},
-      {"heroId": "brigitte", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Баш + удар + хлыст = инстакилл комбо"},
-      {"heroId": "moira", "effectiveness": 4, "tier": "A", "counterRole": "Support", "reason": "Легко попасть лучом, орб добивает"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Трейсер не достает, сплэш урон"},
-      {"heroId": "kiriko", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Хедшот ваншотает (120+мели), судзу от бомбы"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Хук = смерть, но Трейсер фармит ульту на нём"}
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Автонаведение Теслы, прыжок преследует"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Турель не промахивается, ваншот в голову (ПКМ)"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Турели замедляют и убивают, сложно увернуться"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Хедшот ваншотает, граната мешает"
+      },
+      {
+        "heroId": "illari",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Турель хилит, отбрасывает Трейсер"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Баш + удар + хлыст = инстакилл комбо"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Легко попасть лучом, орб добивает"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Трейсер не достает, сплэш урон"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Хедшот ваншотает (120+мели), судзу от бомбы"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Хук = смерть, но Трейсер фармит ульту на нём"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Луч трекает через блинки, гравитон ловит даже с Recall"
+      }
     ]
   },
   {
     "heroId": "vendetta",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Вендетта милишник, Фарра летает"},
-      {"heroId": "echo", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Атакует с воздуха, Вендетта не достанет"},
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Пробивает блок теслой, упрыгивает"},
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Кайтит, заходит в спину (слабое место)"},
-      {"heroId": "mei", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Замораживает сквозь блок"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Отключает способности и блок"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Сон в блок (если не отразит), антихил"},
-      {"heroId": "zenyatta", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Дискорд помогает пробить, но Вендетта дайвит"},
-      {"heroId": "ramattra", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Пробивает блок кулаками"},
-      {"heroId": "orisa", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Контроль, но Вендетта мобильна"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Вендетта милишник, Фарра летает"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Атакует с воздуха, Вендетта не достанет"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Пробивает блок теслой, упрыгивает"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Кайтит, заходит в спину (слабое место)"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Замораживает сквозь блок"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Отключает способности и блок"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон в блок (если не отразит), антихил"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Дискорд помогает пробить, но Вендетта дайвит"
+      },
+      {
+        "heroId": "ramattra",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Пробивает блок кулаками"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Контроль, но Вендетта мобильна"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает эффекты меча, телепорт уводит из зоны"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит бёрст, прыжок от мили-атак"
+      }
     ]
   },
   {
     "heroId": "venture",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Венчур бьет по земле, Фарра в небе"},
-      {"heroId": "echo", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Воздушная цель неуязвима для Венчур"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Хедшот, пока Венчур не в земле"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот, видит в земле соником"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Граната ловит, фан зе хаммер убивает"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хак выбивает из способностей"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Хук ловит при выходе из земли"},
-      {"heroId": "orisa", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Джавелин и укрепление"},
-      {"heroId": "mei", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Заморзка"},
-      {"heroId": "bastion", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "DPS, но Венчур может уйти под землю"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Венчур бьет по земле, Фарра в небе"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Воздушная цель неуязвима для Венчур"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Хедшот, пока Венчур не в земле"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот, видит в земле соником"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Граната ловит, фан зе хаммер убивает"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хак выбивает из способностей"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Хук ловит при выходе из земли"
+      },
+      {
+        "heroId": "orisa",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Джавелин и укрепление"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Заморзка"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "DPS, но Венчур может уйти под землю"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузырь заряжается от бёрст-урона, луч достаёт после Drill Dash"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон ловит после Drill Dash, антихил блокирует подземный хил"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Баш прерывает Drill Dash, щит блокирует бёрст"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает через мобильность, фейд от бёрста"
+      }
     ]
   },
   {
     "heroId": "widowmaker",
     "counters": [
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Прыжок + купол = мертвая Вдова"},
-      {"heroId": "dva", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Матрица и ракеты, преследует везде"},
-      {"heroId": "wreckingball", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Пайлдрайвер, щиты и отсутствие головы в шаре"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Отражение выстрела, дэш добивает"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Невидимость позволяет подойти в упор"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Сложно попасть, ваншот вблизи"},
-      {"heroId": "venture", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Подходит под землей, ваншот комбо"},
-      {"heroId": "lucio", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Высокая скорость, может залезть к Вдове"},
-      {"heroId": "kiriko", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Спамит кунаями в голову издалека"},
-      {"heroId": "hanzo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Соник стрела помогает переиграть"}
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Прыжок + купол = мертвая Вдова"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Матрица и ракеты, преследует везде"
+      },
+      {
+        "heroId": "wreckingball",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Пайлдрайвер, щиты и отсутствие головы в шаре"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Отражение выстрела, дэш добивает"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Невидимость позволяет подойти в упор"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Сложно попасть, ваншот вблизи"
+      },
+      {
+        "heroId": "venture",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Подходит под землей, ваншот комбо"
+      },
+      {
+        "heroId": "lucio",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Высокая скорость, может залезть к Вдове"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Спамит кунаями в голову издалека"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Соник стрела помогает переиграть"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Снайперская дуэль, сон на дистанции ловит при прицеливании"
+      }
     ]
   },
   {
     "heroId": "ana",
     "counters": [
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ана не имеет мобильности, ваншот с бомбы или обоймы"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Дефлект сна и банки, дэш убивает"},
-      {"heroId": "kiriko", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Судзу полностью контрит антихил и слип"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Купол отрезает хил, прыжок на голову"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица ест всё (хил, урон, слип, банку)"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом отключает способности к выживанию"},
-      {"heroId": "doomfist", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Слэм и панч убивают, но риск словить сон"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Фланк сзади, но банка опасна"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Снайперская дуэль против неподвижной цели"},
-      {"heroId": "echo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Атака с воздуха"}
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ана не имеет мобильности, ваншот с бомбы или обоймы"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Дефлект сна и банки, дэш убивает"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Судзу полностью контрит антихил и слип"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Купол отрезает хил, прыжок на голову"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест всё (хил, урон, слип, банку)"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает способности к выживанию"
+      },
+      {
+        "heroId": "doomfist",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Слэм и панч убивают, но риск словить сон"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Фланк сзади, но банка опасна"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Снайперская дуэль против неподвижной цели"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Атака с воздуха"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Фейд снимает сон, луч на дистанции вне прицела"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит антихил комбо, прыжок сбивает прицел"
+      }
     ]
   },
   {
     "heroId": "baptiste",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом отключает поле бессмертия и прыжок"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Вынуждает тратить поле бессмертия рано"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Трудно попасть, дефлект урона"},
-      {"heroId": "reaper", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Врывается в поле бессмертия и убивает"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Купол отрезает хил, дайв форсит абилки"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Хук вытягивает из поля бессмертия"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Антихил работает даже в поле бессмертия (нельзя отхилить 1 хп)"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Летает выше прыжка Батиста"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Сплэш урон заставляет тратить реген"},
-      {"heroId": "hanzo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Ваншот, если нет поля"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает поле бессмертия и прыжок"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Вынуждает тратить поле бессмертия рано"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Трудно попасть, дефлект урона"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Врывается в поле бессмертия и убивает"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Купол отрезает хил, дайв форсит абилки"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Хук вытягивает из поля бессмертия"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Антихил работает даже в поле бессмертия (нельзя отхилить 1 хп)"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Летает выше прыжка Батиста"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Сплэш урон заставляет тратить реген"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Ваншот, если нет поля"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест Biotic Launcher и Amp Matrix, полёт преследует"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение ест Biotic Launcher, рок оглушает при прыжке"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу контрит Amp Matrix фокус, кунаи хедшот"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает через прыжок, фейд избегает Amp Matrix"
+      }
     ]
   },
   {
     "heroId": "brigitte",
     "counters": [
-      {"heroId": "pharah", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Бригитта не может достать до неба, сплэш за щит"},
-      {"heroId": "junkrat", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Моментально ломает щит спамом"},
-      {"heroId": "echo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Бомбы пробивают щит, луч добивает"},
-      {"heroId": "bastion", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Расплавляет щит за секунду"},
-      {"heroId": "ramattra", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Удары Немезиды проходят сквозь щит"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Урон выше хила Бригитты в упор"},
-      {"heroId": "sombra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Взлом убирает щит — Бригитта бесполезна"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Граната перелетает щит, фан хамер ломает"},
-      {"heroId": "tracer", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Держит дистанцию, кайтит"},
-      {"heroId": "reinhardt", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Молот сквозь щит"}
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Бригитта не может достать до неба, сплэш за щит"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Моментально ломает щит спамом"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Бомбы пробивают щит, луч добивает"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Расплавляет щит за секунду"
+      },
+      {
+        "heroId": "ramattra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Удары Немезиды проходят сквозь щит"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Урон выше хила Бригитты в упор"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Взлом убирает щит — Бригитта бесполезна"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Граната перелетает щит, фан хамер ломает"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Держит дистанцию, кайтит"
+      },
+      {
+        "heroId": "reinhardt",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Молот сквозь щит"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк вытягивает через щит, ваншот комбо убивает"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Луч проходит через щит Бригитты, пузырь снимает удар"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Inspire и Rally, сон на дистанции"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи на дистанции вне зоны Бригитты, судзу снимает баш"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч обходит щит, фейд избегает баша"
+      }
     ]
   },
   {
     "heroId": "illari",
     "counters": [
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Легко находит и ломает пилон, убивает Иллари"},
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом пилона отключает хил, Иллари уязвима"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Дефлект хитскана, мобильность против ульты"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Прыжок ломает пилон и давит Иллари"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица ест ульту и выстрелы"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Перестреливает на дистанции"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Сплэш по пилону за укрытием"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Воздушная дуэль"},
-      {"heroId": "ana", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Антихил контрит пилон"},
-      {"heroId": "kiriko", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Судзу снимает эффект ульты (солнышко)"}
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Легко находит и ломает пилон, убивает Иллари"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом пилона отключает хил, Иллари уязвима"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дефлект хитскана, мобильность против ульты"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Прыжок ломает пилон и давит Иллари"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест ульту и выстрелы"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Перестреливает на дистанции"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Сплэш по пилону за укрытием"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная дуэль"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Антихил контрит пилон"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Судзу снимает эффект ульты (солнышко)"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Орб уничтожает пилон, луч трекает, фейд от Captive Sun"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк вытягивает от пилона, ваншот на 200HP саппорта"
+      }
     ]
   },
   {
     "heroId": "juno",
     "counters": [
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Джуно уязвима к дайву, Трейсер легко догоняет"},
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Прыжок на голову, нет защиты кроме скорости"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Мобильность позволяет преследовать"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом отключает полёт/ховер — легкая цель"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Летит за Джуно куда угодно"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хитскан, граната ловит"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Летающая цель без щита"},
-      {"heroId": "soldier76", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Визор не промахивается по летуну"},
-      {"heroId": "reaper", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Если сможет подойти близко"},
-      {"heroId": "moira", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Орб и луч достают в полете"}
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Джуно уязвима к дайву, Трейсер легко догоняет"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Прыжок на голову, нет защиты кроме скорости"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Мобильность позволяет преследовать"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает полёт/ховер — легкая цель"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Летит за Джуно куда угодно"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хитскан, граната ловит"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Летающая цель без щита"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Визор не промахивается по летуну"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Если сможет подойти близко"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Орб и луч достают в полете"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон ловит в воздухе после Hyper Ring, антихил блокирует Orbital Ray"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу контрит Orbital Ray фокус, телепорт из зоны торпед"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит после Hyper Ring, ваншот на 200HP"
+      }
     ]
   },
   {
     "heroId": "kiriko",
     "counters": [
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Купол блокирует хил, прыжок форсит телепорт"},
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом блокирует телепорт и Судзу"},
-      {"heroId": "tracer", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Выманивает способности, сложная мишень для куная"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Вертикальная мобильность и дефлект"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Граната отключает телепорт"},
-      {"heroId": "ana", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Антихил форсит Судзу"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Кирико сложно попасть в небо"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Бурст урон быстрее реакции на Судзу"},
-      {"heroId": "torbjorn", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Турель мешает фланковать"},
-      {"heroId": "moira", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Нельзя отразить луч дефлектом (которого нет), просто урон"}
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Купол блокирует хил, прыжок форсит телепорт"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом блокирует телепорт и Судзу"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Выманивает способности, сложная мишень для куная"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Вертикальная мобильность и дефлект"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Граната отключает телепорт"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Антихил форсит Судзу"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Кирико сложно попасть в небо"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Бурст урон быстрее реакции на Судзу"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Турель мешает фланковать"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Нельзя отразить луч дефлектом (которого нет), просто урон"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Полёт преследует после телепорта, матрица ест кунаи"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит до телепорта, ваншот комбо на 200HP"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит кунаи фокус, хитскан урон дуэлит"
+      }
     ]
   },
   {
     "heroId": "lifeweaver",
     "counters": [
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Огромный хитбокс Вивера — корм для Трейсер"},
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "ЕМП ломает дерево, хак сбрасывает платформу"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Прыгает на платформу, большой хитбокс"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Дайв, легко попасть сюрикенами"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Атака сверху игнорирует платформу"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Сплэш за платформу"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Лепесток делает Вивера легкой мишенью"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Телепорт на платформу, ваншот"},
-      {"heroId": "dva", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Сбивает с позиции"},
-      {"heroId": "ana", "effectiveness": 2, "tier": "C", "counterRole": "Support", "reason": "Большая цель для слипа"}
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Огромный хитбокс Вивера — корм для Трейсер"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "ЕМП ломает дерево, хак сбрасывает платформу"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Прыгает на платформу, большой хитбокс"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дайв, легко попасть сюрикенами"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Атака сверху игнорирует платформу"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Сплэш за платформу"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Лепесток делает Вивера легкой мишенью"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Телепорт на платформу, ваншот"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Сбивает с позиции"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Support",
+        "reason": "Большая цель для слипа"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк вытягивает несмотря на Life Grip, ваншот"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот убивают быстрее хила, судзу контрит pull"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает медленную цель, орб через Petal Platform"
+      }
     ]
   },
   {
     "heroId": "lucio",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Взлом отключает песни и стенрайдинг — легкая цель"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Граната останавливает движение"},
-      {"heroId": "mei", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Луч замедляет, стена блокирует путь"},
-      {"heroId": "pharah", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Сплэш сбивает со стен, недосягаема"},
-      {"heroId": "winston", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Тесла не требует прицеливания"},
-      {"heroId": "moira", "effectiveness": 3, "tier": "B", "counterRole": "Support", "reason": "Луч легко держится на мобильной цели"},
-      {"heroId": "torbjorn", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Турель контрит мобильность"},
-      {"heroId": "symmetra", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Турели замедляют"},
-      {"heroId": "roadhog", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Хук наказывает за плохую позицию"},
-      {"heroId": "junkrat", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Трап останавливает музыку"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает песни и стенрайдинг — легкая цель"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Граната останавливает движение"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Луч замедляет, стена блокирует путь"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Сплэш сбивает со стен, недосягаема"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Тесла не требует прицеливания"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч легко держится на мобильной цели"
+      },
+      {
+        "heroId": "torbjorn",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Турель контрит мобильность"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Турели замедляют"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Хук наказывает за плохую позицию"
+      },
+      {
+        "heroId": "junkrat",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Трап останавливает музыку"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Полёт преследует wall-ride, матрица в лицо"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Speed Boost агрессию, сон на стене"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот пробивают Speed Boost, судзу контрит Sound Barrier"
+      }
     ]
   },
   {
     "heroId": "mercy",
     "counters": [
-      {"heroId": "widowmaker", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ваншот, пока Ангел в полете предсказуема"},
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Преследует после перелета, убивает быстро"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом прерывает воскрешение и полет"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Блейд убивает Ангела первой"},
-      {"heroId": "cassidy", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Ульта контрит Валькирию"},
-      {"heroId": "soldier76", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Визор находит Ангела в небе"},
-      {"heroId": "dva", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Преследует на хайграундах"},
-      {"heroId": "winston", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Мягкий дайв"},
-      {"heroId": "roadhog", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Хук сбивает воскрешение"},
-      {"heroId": "ashe", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Динамит и выстрел"}
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ваншот, пока Ангел в полете предсказуема"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Преследует после перелета, убивает быстро"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом прерывает воскрешение и полет"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Блейд убивает Ангела первой"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ульта контрит Валькирию"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Визор находит Ангела в небе"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Преследует на хайграундах"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Мягкий дайв"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Хук сбивает воскрешение"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Динамит и выстрел"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует весь хил Мерси, сон ловит в полёте GA"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает летающую Мерси, фейд от Valk"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Кунаи хедшот убивают хрупкую цель, судзу контрит pocket"
+      }
     ]
   },
   {
     "heroId": "moira",
     "counters": [
-      {"heroId": "dva", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Матрица съедает сферы (хил и урон) — Мойра бесполезна"},
-      {"heroId": "ana", "effectiveness": 5, "tier": "S", "counterRole": "Support", "reason": "Антихил не дает Мойре лечиться"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот издалека, Мойра не достает"},
-      {"heroId": "hanzo", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Ваншот в голову"},
-      {"heroId": "cassidy", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взрывной урон быстрее самолечения"},
-      {"heroId": "roadhog", "effectiveness": 3, "tier": "B", "counterRole": "Tank", "reason": "Хук и ваншот, Мойра не может захилиться"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Вне дистанции луча"},
-      {"heroId": "echo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Луч добивает после ухода Мойры в фейд"},
-      {"heroId": "sombra", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Взлом отключает уход, но Мойра может сбить хак"},
-      {"heroId": "tracer", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Мойра опасна в дуэли, но Трейсер может забайтить"}
+      {
+        "heroId": "dva",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Матрица съедает сферы (хил и урон) — Мойра бесполезна"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил не дает Мойре лечиться"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот издалека, Мойра не достает"
+      },
+      {
+        "heroId": "hanzo",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот в голову"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взрывной урон быстрее самолечения"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Хук и ваншот, Мойра не может захилиться"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Вне дистанции луча"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Луч добивает после ухода Мойры в фейд"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает уход, но Мойра может сбить хак"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Мойра опасна в дуэли, но Трейсер может забайтить"
+      },
+      {
+        "heroId": "sigma",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Поглощение ест Biotic Orb, рок оглушает фейд кулдаун"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу очищает урон от Biotic Grasp, кунаи хедшот"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Бессмертие контрит Coalescence, хитскан урон на дистанции"
+      }
     ]
   },
   {
     "heroId": "wuyang",
     "counters": [
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Мобильность позволяет уйти от AoE и убить"},
-      {"heroId": "winston", "effectiveness": 5, "tier": "S", "counterRole": "Tank", "reason": "Дайв игнорирует тотемы/барьеры, давит"},
-      {"heroId": "genji", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Вертикальная мобильность"},
-      {"heroId": "sombra", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Взлом лишает способностей контроля зоны"},
-      {"heroId": "dva", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Матрица поглощает снаряды"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Врывается в ближний бой"},
-      {"heroId": "pharah", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Атакует сверху зоны контроля"},
-      {"heroId": "widowmaker", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Хитскан издалека"},
-      {"heroId": "cassidy", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Берст урон"},
-      {"heroId": "echo", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Атака с воздуха"}
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Мобильность позволяет уйти от AoE и убить"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Дайв игнорирует тотемы/барьеры, давит"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Вертикальная мобильность"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом лишает способностей контроля зоны"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица поглощает снаряды"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Врывается в ближний бой"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Атакует сверху зоны контроля"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Хитскан издалека"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Берст урон"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Атака с воздуха"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Lu Ban Pulse хил, сон прерывает"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу контрит ульту, телепорт уводит"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает, фейд от CC"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Крюк вытягивает, ваншот комбо убивает саппорта мгновенно"
+      }
     ]
   },
   {
     "heroId": "zenyatta",
     "counters": [
-      {"heroId": "sombra", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "ЕМП мгновенно снимает всё здоровье (щиты) — ваншот"},
-      {"heroId": "tracer", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Ванклип из-за огромного хитбокса, Дзен медленный"},
-      {"heroId": "genji", "effectiveness": 5, "tier": "S", "counterRole": "Damage", "reason": "Идеальная цель для комбо, нет эскейпа"},
-      {"heroId": "doomfist", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Дайв уничтожает неподвижного монаха"},
-      {"heroId": "winston", "effectiveness": 4, "tier": "A", "counterRole": "Tank", "reason": "Купол блокирует урон Дзена пока тот умирает"},
-      {"heroId": "widowmaker", "effectiveness": 4, "tier": "A", "counterRole": "Damage", "reason": "Самая легкая голова для хедшота"},
-      {"heroId": "reaper", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Телепорт за спину — Дзен труп"},
-      {"heroId": "echo", "effectiveness": 3, "tier": "B", "counterRole": "Damage", "reason": "Липучки и луч — мгновенная смерть"},
-      {"heroId": "pharah", "effectiveness": 2, "tier": "C", "counterRole": "Damage", "reason": "Спам сверху"},
-      {"heroId": "dva", "effectiveness": 2, "tier": "C", "counterRole": "Tank", "reason": "Матрица и ракеты"}
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "ЕМП мгновенно снимает всё здоровье (щиты) — ваншот"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Ванклип из-за огромного хитбокса, Дзен медленный"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Идеальная цель для комбо, нет эскейпа"
+      },
+      {
+        "heroId": "doomfist",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв уничтожает неподвижного монаха"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Купол блокирует урон Дзена пока тот умирает"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Самая легкая голова для хедшота"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Телепорт за спину — Дзен труп"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Липучки и луч — мгновенная смерть"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Damage",
+        "reason": "Спам сверху"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 2,
+        "tier": "C",
+        "counterRole": "Tank",
+        "reason": "Матрица и ракеты"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон ловит неподвижного Зена, антихил блокирует Трансценденцию"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу контрит дискорд-фокус, кунаи дуэлят на дистанции"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч трекает без промахов, фейд от залпа, орб дамажит"
+      }
+    ]
+  },
+  {
+    "heroId": "domina",
+    "counters": [
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузыри снимают стан от Sonic Repulsors и заряжают энергию от атак Домины"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Тесла игнорирует сегментированный барьер, прыжок обходит с тыла"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк проходит мимо барьеров, ваншот комбо пробивает щиты"
+      },
+      {
+        "heroId": "ramattra",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Tank",
+        "reason": "Удары Немезиды пробивают барьер, вихрь наносит урон за защитой"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает все способности — барьер, отталкивание, Crystal Charge"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Телепорт за барьер, огромный урон в упор пробивает регенерацию щитов"
+      },
+      {
+        "heroId": "symmetra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Луч заряжается об барьер и проходит сквозь него"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Блинки обходят барьер и Sonic Repulsors, фармит ульту"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "DPS турели ломает сегменты барьера за секунды"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Reconstruction (пассивную регенерацию щитов), сон прерывает ульту"
+      },
+      {
+        "heroId": "zenyatta",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Дискорд компенсирует регенерацию щитов, шары обходят барьер"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает стан от отталкивания в стену, телепорт за барьер"
+      }
+    ]
+  },
+  {
+    "heroId": "anran",
+    "counters": [
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Тесла автонаводится на мобильную Анран, купол блокирует Inferno Rush"
+      },
+      {
+        "heroId": "zarya",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Пузырь снимает горение (Ignite), заряжается от огненных атак"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест веера и ульту Vermillion Ascent, полёт преследует"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Летает вне досягаемости Fan the Flames (10м), Анран не может достать"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, пока Анран входит в ближний бой"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Магнитная граната прерывает Inferno Rush и Dancing Blaze"
+      },
+      {
+        "heroId": "mei",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Глыба очищает горение, стена блокирует Inferno Rush"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная мобильность вне зоны огня, луч добивает"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Судзу снимает горение (Ignite) — основной урон Анран нейтрализован"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Щит блокирует горение, баш прерывает Inferno Rush"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Фейд снимает горение, луч легко попадает по мобильной цели"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Vermillion Ascent (ульту), антихил блокирует самолечение"
+      }
+    ]
+  },
+  {
+    "heroId": "emre",
+    "counters": [
+      {
+        "heroId": "dva",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Матрица поглощает Burst Rifle, Cyber Frag и Override Protocol — Эмре обезоружен"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Дайв прессует Эмре, у которого нет мобильности без Siphon Blaster"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит Эмре без дэша, ваншот комбо убивает"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает Siphon Blaster — единственный эскейп и хил Эмре"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Граната + Fan the Hammer убивает быстрее Burst Rifle"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дефлект возвращает burst урон, дэш преследует"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Слишком быстра для burst rifle, заходит в тыл"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, пока Эмре целится через Take Aim"
+      },
+      {
+        "heroId": "reaper",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Фланк и огромный урон в упор пробивает Altered Vitals"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Сон прерывает Override Protocol (ульту), антихил блокирует Siphon Blaster лечение"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает замедление от Suppressive Security, телепорт спасает от гранаты"
+      },
+      {
+        "heroId": "brigitte",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Баш прерывает Override Protocol, щит блокирует burst shots"
+      }
+    ]
+  },
+  {
+    "heroId": "jetpackcat",
+    "counters": [
+      {
+        "heroId": "dva",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Полёт преследует Jetpack Cat в воздухе, матрица ест Biotic Pawjectiles"
+      },
+      {
+        "heroId": "winston",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Тесла достаёт в воздухе, прыжок догоняет даже в полёте"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк сбивает с полёта, ваншот комбо убивает 200HP саппорта"
+      },
+      {
+        "heroId": "soldier76",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хитскан легко трекает летающую цель, визор автонаводится"
+      },
+      {
+        "heroId": "cassidy",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Хитскан точно попадает по воздушной цели, Deadeye ловит в полёте"
+      },
+      {
+        "heroId": "ashe",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Прицельный хитскан с дистанции, динамит форсит Purr"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает Frenetic Flight и Lifeline — Jetpack Cat падает"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот предсказуемой воздушной цели"
+      },
+      {
+        "heroId": "bastion",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Турель вливает урон в большой силуэт в полёте"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Хитскан в прицеле легко попадает по воздушной цели, сон сбивает с полёта"
+      },
+      {
+        "heroId": "baptiste",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Support",
+        "reason": "Хитскан урон, бессмертие контрит Catnapper (ульту)"
+      },
+      {
+        "heroId": "juno",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Pulsar Torpedoes — самонаводящиеся ракеты против летающей цели"
+      }
+    ]
+  },
+  {
+    "heroId": "mizuki",
+    "counters": [
+      {
+        "heroId": "winston",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Tank",
+        "reason": "Тесла игнорирует Spirit Glaive, дайв давит через Kekkai Sanctuary"
+      },
+      {
+        "heroId": "dva",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Матрица ест Spirit Glaive и Binding Chain, полёт преследует после Katashiro Return"
+      },
+      {
+        "heroId": "roadhog",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Tank",
+        "reason": "Крюк ловит до активации Katashiro Return, ваншот"
+      },
+      {
+        "heroId": "sombra",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Damage",
+        "reason": "Взлом отключает Katashiro Return — основной эскейп Мизуки"
+      },
+      {
+        "heroId": "widowmaker",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Ваншот с дистанции, вне зоны Remedy Aura"
+      },
+      {
+        "heroId": "tracer",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Блинки избегают Binding Chain, гонится за куклой Katashiro"
+      },
+      {
+        "heroId": "genji",
+        "effectiveness": 4,
+        "tier": "A",
+        "counterRole": "Damage",
+        "reason": "Дефлект Spirit Glaive, блейд убивает быстрее Healing Kasa"
+      },
+      {
+        "heroId": "pharah",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Летает вне зоны Binding Chain и Remedy Aura"
+      },
+      {
+        "heroId": "echo",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Damage",
+        "reason": "Воздушная мобильность, бомбы превышают пассивный хил Remedy Aura"
+      },
+      {
+        "heroId": "ana",
+        "effectiveness": 5,
+        "tier": "S",
+        "counterRole": "Support",
+        "reason": "Антихил блокирует Healing Kasa и Remedy Aura — основной хил Мизуки"
+      },
+      {
+        "heroId": "moira",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Луч преследует через мобильность, орб наносит урон через Kekkai Sanctuary"
+      },
+      {
+        "heroId": "kiriko",
+        "effectiveness": 3,
+        "tier": "B",
+        "counterRole": "Support",
+        "reason": "Судзу снимает Binding Chain, кунаи прерывают хил"
+      }
     ]
   }
 ]

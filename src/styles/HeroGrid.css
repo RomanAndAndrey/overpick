@@ -54,7 +54,7 @@
 .heroGridSearchInput:focus {
   outline: none;
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(240, 100, 20, 0.15);
+  box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.15);
 }
 
 /* Фильтры ролей */

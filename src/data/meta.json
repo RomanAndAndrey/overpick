@@ -14,7 +14,7 @@
   "metaDescription": "Overwatch Season 1 (ребрендинг, 10 февраля 2026). Убраны ролевые пассивки DD и саппортов, добавлены подроли с уникальными бонусами. 5 новых героев: Domina, Anran, Emre, Jetpack Cat, Mizuki. Дайв-композиции с Tracer/Genji/Winston доминируют, brawl с Sojourn/Sigma также сильны.",
   "tiers": {
     "S": {"label": "S-Tier", "description": "Доминируют в мете, must-pick", "color": "#FF4444"},
-    "A": {"label": "A-Tier", "description": "Сильные и надёжные выборы", "color": "#FF8844"},
+    "A": {"label": "A-Tier", "description": "Сильные и надёжные выборы", "color": "#3B82F6"},
     "B": {"label": "B-Tier", "description": "Ситуативно эффективные герои", "color": "#FFCC44"},
     "C": {"label": "C-Tier", "description": "Легко контрятся или мало влияния", "color": "#88CC44"},
     "D": {"label": "D-Tier", "description": "Избегаются в рейтинге", "color": "#888888"}

@@ -8,7 +8,7 @@
   padding: var(--spacing-3xl) var(--spacing-lg) var(--spacing-2xl);
   text-align: center;
   background: 
-    radial-gradient(ellipse at 50% 0%, rgba(240, 100, 20, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 0%, rgba(230, 57, 70, 0.06) 0%, transparent 60%),
     linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-secondary) 100%);
   position: relative;
   overflow: hidden;
@@ -23,7 +23,7 @@
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(240, 100, 20, 0.04) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(230, 57, 70, 0.04) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -40,8 +40,8 @@
   align-items: center;
   gap: 6px;
   padding: 6px 16px;
-  background: rgba(240, 100, 20, 0.1);
-  border: 1px solid rgba(240, 100, 20, 0.25);
+  background: rgba(230, 57, 70, 0.1);
+  border: 1px solid rgba(230, 57, 70, 0.25);
   border-radius: var(--radius-full);
   font-size: var(--font-size-sm);
   font-weight: 600;
@@ -68,7 +68,7 @@
   color: var(--color-accent);
   display: block;
   font-size: clamp(3.5rem, 10vw, 5.5rem);
-  background: linear-gradient(135deg, var(--color-accent) 0%, #ff8844 60%, var(--color-accent-blue) 100%);
+  background: linear-gradient(135deg, var(--color-accent) 0%, #ff4d5a 60%, var(--color-accent-blue) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,19 +94,19 @@
 
 .heroCtaPrimary {
   padding: 14px var(--spacing-xl);
-  background: linear-gradient(135deg, var(--color-accent), #ff7a2e);
+  background: linear-gradient(135deg, var(--color-accent), #ff4d5a);
   color: white;
   font-weight: 600;
   border-radius: var(--radius-lg);
   font-size: var(--font-size-base);
   transition: all var(--transition-normal);
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(240, 100, 20, 0.3);
+  box-shadow: 0 4px 16px rgba(230, 57, 70, 0.3);
 }
 
 .heroCtaPrimary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(240, 100, 20, 0.4);
+  box-shadow: 0 8px 32px rgba(230, 57, 70, 0.4);
   color: white;
 }
 
@@ -211,15 +211,15 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(240, 100, 20, 0.03) 0%, transparent 50%);
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.03) 0%, transparent 50%);
   opacity: 0;
   transition: opacity var(--transition-normal);
 }
 
 .topMetaCard:hover {
-  border-color: rgba(240, 100, 20, 0.4);
+  border-color: rgba(230, 57, 70, 0.4);
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(240, 100, 20, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(230, 57, 70, 0.1);
   color: inherit;
 }
 

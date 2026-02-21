@@ -117,12 +117,12 @@
 }
 
 .patchCard:first-child {
-  border-color: rgba(240, 100, 20, 0.25);
-  background: linear-gradient(135deg, rgba(240, 100, 20, 0.03) 0%, var(--color-bg-card) 50%);
+  border-color: rgba(230, 57, 70, 0.25);
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.03) 0%, var(--color-bg-card) 50%);
 }
 
 .patchCard:hover {
-  border-color: rgba(240, 100, 20, 0.4);
+  border-color: rgba(230, 57, 70, 0.4);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
@@ -151,7 +151,7 @@
 }
 
 .patchVersion {
-  background: linear-gradient(135deg, var(--color-accent), #ff7a2e);
+  background: linear-gradient(135deg, var(--color-accent), #ff4d5a);
   color: white;
   padding: 3px 10px;
   border-radius: var(--radius-full);
@@ -253,7 +253,7 @@
 }
 
 .tierLegendBadge--S { background: #FF4444; }
-.tierLegendBadge--A { background: #FF8844; }
+.tierLegendBadge--A { background: #3B82F6; }
 .tierLegendBadge--B { background: #FFCC44; color: #333; }
 .tierLegendBadge--C { background: #88CC44; }
 .tierLegendBadge--D { background: #888888; }

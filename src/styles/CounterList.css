@@ -126,7 +126,7 @@
   background: linear-gradient(135deg, #ff4444, #cc0000);
 }
 .counterItemTier--A {
-  background: linear-gradient(135deg, #ff8844, #cc5500);
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
 }
 .counterItemTier--B {
   background: linear-gradient(135deg, #ffcc44, #cc9900);
@@ -213,7 +213,7 @@
   background: #ff4444;
 }
 .counterItemStar--4.counterItemStar--filled {
-  background: #ff8844;
+  background: #3B82F6;
 }
 .counterItemStar--3.counterItemStar--filled {
   background: #ffcc44;
